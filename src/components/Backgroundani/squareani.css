@@ -1,0 +1,11 @@
+ 
+    
+
+@keyframes squareslide {
+    from{
+        transform: translateX(-75vw);
+    }
+    to{
+        transform: translateX(100vw);
+    }
+}

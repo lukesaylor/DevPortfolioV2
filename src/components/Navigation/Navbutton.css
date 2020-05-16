@@ -1,0 +1,80 @@
+.buttontext {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vw; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  } 
+  
+.buttonimg {
+     width: 75%;
+     background-color: #1C2541 ;
+     margin: auto;
+}
+
+.buttontext.appear {
+    animation: textappear 3s forwards;
+}
+
+  .Navbutton {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color:  #6FFFE9; 
+    
+    padding-bottom: 2vh;
+    z-index: 0;
+}
+
+
+@keyframes grow {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+} 
+
+ 
+
+.buttonimg:hover {
+animation: grow 3s forwards;
+
+
+} 
+
+@media (max-width: 750px)  {
+    .Navbutton {
+        width: 25%;
+        height: inherit;
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    .buttontext {
+        font-size: 4vw;
+        
+    }
+
+    @keyframes mobilegrow {
+        0% {
+          transform: scale(1);
+          opacity: 1; 
+        }
+        100% {
+          transform: scale(1.5);
+           opacity: 0;
+        }
+    } 
+
+    .buttonimg:hover {
+        animation: mobilegrow 3s forwards;
+    }
+
+}

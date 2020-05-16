@@ -1,0 +1,47 @@
+.HomeContainer {
+     
+    width: 91%;
+    padding-left: 9vw;
+}
+
+@keyframes homefade {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.Homemain {
+   padding-left: 10vw; 
+   height: 100vh;
+   opacity: 0;
+   z-index: -1;
+   animation: homefade 6s forwards;
+    
+}
+
+.Homemobile {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .HomeContainer {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 150px;
+    }
+    
+    .Homemain {
+         display: none;
+    }
+
+    .Homemobile {
+        display: inline;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+}
