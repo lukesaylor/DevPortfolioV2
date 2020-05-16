@@ -3,9 +3,22 @@
 
 @keyframes squareslide {
     from{
-        transform: translateX(-75vw);
+        transform: translateX(-50vw);
+         
     }
     to{
-        transform: translateX(100vw);
+        transform: translateX(150vw);
+         
+    }
+}
+
+@keyframes squaresliderev {
+    from{
+        transform: translateX(150vw);
+         
+    }
+    to{
+        transform: translateX(-50vw);
+         
     }
 }
