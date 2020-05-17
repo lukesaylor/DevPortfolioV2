@@ -37,9 +37,15 @@ const Navigation = () => (
          </navbuttons>
          
          <sociallinks className="Sociallinks">
-            <Githublogo className="Socialicon"/>
-            <Leetcodelogo className="Socialicon"/>
-            <Linkedinlogo className="Socialicon"/>  
+            <a target="blank" href="https://github.com/lukesaylor">
+                <Githublogo className="Socialicon"/>
+            </a>
+            <a target="blank" href="https://leetcode.com/bigpancake/">
+                <Leetcodelogo className="Socialicon"/>
+            </a>
+            <a target="blank" href="http://www.linkedin.com">
+                <Linkedinlogo className="Socialicon"/>
+            </a>  
          </sociallinks>    
     </div>
 )

@@ -1,4 +1,11 @@
- 
+.square {
+    animation-play-state: running;
+}
+
+
+.square:hover {
+    animation-play-state: paused;
+} 
     
 
 @keyframes squareslide {
