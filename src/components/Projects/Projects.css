@@ -1,4 +1,4 @@
-.Aboutcontainer {
+.Projectscontainer {
     width: 91%;
     padding-left: 9vw;
     display: flex;
@@ -18,7 +18,7 @@
     }
 }
 
-.Aboutheader {
+.Projectsheader {
     position: relative;
     bottom: 5vh;
     width: 100%;
@@ -39,13 +39,13 @@
 }
 
 @media (max-width: 1050px) {
-    .Aboutheader {
+    .Projectsheader {
         padding-top: 150px;
-        font-size: 20vw;
+        font-size: 18vw;
         transform: translateY(0vh);
         animation: none;
     }
-    .Aboutcontainer {
+    .Projectscontainer {
         width: 100%;
         padding-left: 0vw;
          

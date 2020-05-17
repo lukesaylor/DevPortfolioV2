@@ -100,13 +100,13 @@
 
 
 
-@media (max-width: 900px)  {
+@media (max-width: 1050px)  {
     .Navigation {
         position: fixed;
         top: 0;
         background-color: #1C2541;
         width: 100%;
-        height: 100px;
+        height: 110px;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -114,6 +114,7 @@
         border-radius: 0px;
         transform: none;
         animation: none;
+        overflow: hidden;
     }
 
     .LSicon {
@@ -132,6 +133,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        transform: translateX(0px);
+        animation: none;
+        
         
     
     }

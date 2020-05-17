@@ -1,4 +1,4 @@
-.Aboutcontainer {
+.Contactcontainer {
     width: 91%;
     padding-left: 9vw;
     display: flex;
@@ -18,7 +18,7 @@
     }
 }
 
-.Aboutheader {
+.Contactheader {
     position: relative;
     bottom: 5vh;
     width: 100%;
@@ -39,15 +39,15 @@
 }
 
 @media (max-width: 1050px) {
-    .Aboutheader {
+    .Contactheader {
         padding-top: 150px;
         font-size: 20vw;
-        transform: translateY(0vh);
+        transform: translateY(0);
         animation: none;
+         
     }
-    .Aboutcontainer {
+    .Contactcontainer {
         width: 100%;
         padding-left: 0vw;
-         
     }
 }

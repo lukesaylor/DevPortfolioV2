@@ -1,6 +1,6 @@
 .buttontext {
     font-family: Bungee;
-    font-size: 1vw; 
+    font-size: .9vw; 
     
     position: absolute;
     top: 50%;
@@ -50,7 +50,7 @@ animation: grow 3s forwards;
 
 } 
 
-@media (max-width: 900px)  {
+@media (max-width: 1050px)  {
     .Navbutton {
         width: 100%; 
         padding-top: 20px;
@@ -71,12 +71,10 @@ animation: grow 3s forwards;
 
     @keyframes mobilegrow {
         0% {
-          transform: scale(1);
-            
+          transform: scale(1);   
         }
         100% {
           transform: scale(1.2);
-            
         }
     } 
 
