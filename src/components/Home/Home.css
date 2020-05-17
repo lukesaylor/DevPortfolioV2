@@ -4,13 +4,15 @@
     padding-left: 9vw;
 }
 
-@keyframes homefade {
+@keyframes homefadeslide {
     0%{
         opacity: 0;
+        transform:scale(.01);
         
     }
     100%{
         opacity: 1;
+        transform:scale(1);
     }
 }
 
@@ -19,7 +21,8 @@
    height: 100vh;
    opacity: 0;
    z-index: -1;
-   animation: homefade 6s forwards;
+   transform: scale(.01);
+   animation: homefadeslide 2s forwards;
     
 }
 
@@ -43,6 +46,7 @@
         position: fixed;
         bottom: 0;
         width: 100vw;
+        
          
     }
 }
