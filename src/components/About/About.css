@@ -1,0 +1,27 @@
+.Aboutcontainer {
+    width: 91%;
+    padding-left: 9vw;
+    display: flex;
+}
+
+.Aboutheader {
+    width: 100%;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 10vw;
+    color: #5BC0BE;
+    text-shadow: 20px 20px 10px  #0B132B;
+    -webkit-text-stroke: 1px #6FFFE9;
+    text-decoration: 10px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+     
+    
+}
+
+@media (max-width: 900px) {
+    .Aboutheader {
+        padding-top: 100px;
+    }
+}
