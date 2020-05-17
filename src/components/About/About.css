@@ -23,5 +23,6 @@
 @media (max-width: 900px) {
     .Aboutheader {
         padding-top: 100px;
+        font-size: 20vw;
     }
 }

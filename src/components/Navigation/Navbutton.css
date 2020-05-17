@@ -1,6 +1,6 @@
 .buttontext {
     font-family: Pacifico;
-    font-size: 1.3vw; 
+    font-size: 1vw; 
     
     position: absolute;
     top: 50%;
@@ -50,8 +50,7 @@ animation: grow 3s forwards;
 
 @media (max-width: 900px)  {
     .Navbutton {
-        width: 100%;
-        
+        width: 100%; 
         padding-top: 20px;
         margin: auto;
     }
