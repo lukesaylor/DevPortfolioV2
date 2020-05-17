@@ -1,4 +1,5 @@
 .Navigation {   
+    font-family: Pacifico;
     position: fixed;
     top: 0;
     left: 0;
@@ -82,7 +83,7 @@
 
 
 
-@media (max-width: 750px)  {
+@media (max-width: 900px)  {
     .Navigation {
         position: fixed;
         top: 0;

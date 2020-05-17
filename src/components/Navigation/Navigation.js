@@ -10,6 +10,7 @@ import {ReactComponent as Githublogo} from '../../Assets/github.svg';
 import {ReactComponent as Leetcodelogo} from '../../Assets/leetcode.svg';
 import {ReactComponent as Linkedinlogo} from '../../Assets/linkedin.svg';
 import Navbutton from '../Navigation/Navbutton';
+import {Link} from 'react-router-dom';
 
 
 
@@ -18,8 +19,12 @@ const Navigation = () => (
          <img src={lsicon} alt="Logo" className="LSicon"/>
           
          <navbuttons className="Navbuttons">
-             <Navbutton image={homeicon} alt="Home" title="Home"/>
-             <Navbutton image={aboutmeicon} alt="About" title="About"/>
+            <Link to="/">
+                <Navbutton image={homeicon} alt="Home" title="Home"/>
+            </Link>
+            <Link to="/About"> 
+                <Navbutton image={aboutmeicon} alt="About" title="About"/>
+             </Link>
              <Navbutton image={skillsicon} alt="Skills" title="Skills"/>
              <Navbutton image={projectsicon} alt="Projects" title="Projects"/>
              <Navbutton image={contacticon} alt="Contact" title="Contact"/>

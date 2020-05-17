@@ -1,6 +1,7 @@
 .buttontext {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2vw; 
+    font-family: Pacifico;
+    font-size: 1.3vw; 
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,9 +15,7 @@
      margin: auto;
 }
 
-.buttontext.appear {
-    animation: textappear 3s forwards;
-}
+
 
   .Navbutton {
     display: flex;
@@ -49,27 +48,27 @@ animation: grow 3s forwards;
 
 } 
 
-@media (max-width: 750px)  {
+@media (max-width: 900px)  {
     .Navbutton {
         width: 25%;
         height: inherit;
-        padding-top: 10px;
+        padding-top: 20px;
         margin: auto;
     }
 
     .buttontext {
-        font-size: 4vw;
+        display: none;
         
     }
 
     @keyframes mobilegrow {
         0% {
           transform: scale(1);
-          opacity: 1; 
+            
         }
         100% {
-          transform: scale(1.5);
-           opacity: 0;
+          transform: scale(1.3);
+            
         }
     } 
 
