@@ -22,9 +22,11 @@
     flex-direction: column;
     border-right: thin solid #5BC0BE;
     border-radius: 4px;
+    box-shadow: 20px 20px 15px  #0B132B;
     z-index: 5;
     transform: translateY(100vh);
     animation: navbarslide 2s forwards;
+
     
 }
 

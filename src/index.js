@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './fonts/Pacifico-Regular.ttf'
+import './fonts/Pacifico-Regular.ttf';
+import './fonts/Bungee-Regular.ttf';
+import './fonts/BungeeShade-Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

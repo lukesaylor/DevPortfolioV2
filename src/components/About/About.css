@@ -6,15 +6,15 @@
 
 @keyframes rollin {
     from{
-        transform: translateY(-40vh) scaleY(.01);
+        transform: translateY(-40vh) scale(2)  ;
         color:#0B132B ;
-        text-shadow: 800px 500px 10px  #0B132B
+        text-shadow: 500px -500px 10px  #0B132B
          
     }
     to{
-        transform: translateY(0) scaleY(1);
+        transform: translateY(0) scale(1) ;
         color: #5BC0BE;
-        text-shadow: 20px 20px 10px  #0B132B
+        text-shadow: 20px 20px 15px  #0B132B
     }
 }
 
@@ -23,16 +23,16 @@
     bottom: 5vh;
     width: 100%;
     text-align: center;
-    font-family: Pacifico;
-    font-size: 10vw;
+    font-family: Bungee;
+    font-size: 8vw;
     color: #5BC0BE;
     text-shadow: 20px 20px 10px  #0B132B;
     -webkit-text-stroke: 1px #6FFFE9;
     text-decoration: 10px;
-    padding: 0;
+    padding-top: 2%;
     margin: 0;
     border: 0;
-    transform: translateY(-40vh) scaleY(.1);
+    transform: translateY(-40vh)  ;
     animation: rollin 3s forwards;
      
     
@@ -40,7 +40,7 @@
 
 @media (max-width: 900px) {
     .Aboutheader {
-        padding-top: 100px;
+        padding-top: 150px;
         font-size: 20vw;
     }
 }

@@ -3,6 +3,16 @@
   src: local('Pacifico'), url(./fonts/Pacifico-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Bungee';
+  src: local('Bungee'), url(./fonts/Bungee-Regular.ttf) format('truetype');
+}
+  
+@font-face {
+    font-family: 'BungeeShade';
+    src: local('BungeeShade'), url(./fonts/BungeeShade-Regular.ttf) format('truetype');
+  }
+
 
 body {
   margin: 0;

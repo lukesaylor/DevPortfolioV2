@@ -1,5 +1,5 @@
 .buttontext {
-    font-family: Pacifico;
+    font-family: Bungee;
     font-size: 1vw; 
     
     position: absolute;
@@ -10,7 +10,7 @@
   } 
   
 .buttonimg {
-     width: 75%;
+     width: 100%;
      background-color: #1C2541 ;
      margin: auto;
 }
@@ -21,11 +21,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 100%;
     text-align: center;
     color:  #6FFFE9; 
-    
+    margin: 0; 
     padding-bottom: 2vh;
     z-index: 0;
+
 }
 
 
@@ -53,11 +55,18 @@ animation: grow 3s forwards;
         width: 100%; 
         padding-top: 20px;
         margin: auto;
+        
     }
 
     .buttontext {
         display: none;
+       
         
+    }
+
+    .buttonimg {
+      background-color: none;
+      border-radius: 20px;
     }
 
     @keyframes mobilegrow {
@@ -66,7 +75,7 @@ animation: grow 3s forwards;
             
         }
         100% {
-          transform: scale(1.3);
+          transform: scale(1.2);
             
         }
     } 
