@@ -50,8 +50,8 @@ animation: grow 3s forwards;
 
 @media (max-width: 900px)  {
     .Navbutton {
-        width: 25%;
-        height: inherit;
+        width: 100%;
+        
         padding-top: 20px;
         margin: auto;
     }

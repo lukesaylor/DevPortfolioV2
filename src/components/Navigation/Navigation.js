@@ -24,11 +24,16 @@ const Navigation = () => (
             </Link>
             <Link to="/About"> 
                 <Navbutton image={aboutmeicon} alt="About" title="About"/>
-             </Link>
-             <Navbutton image={skillsicon} alt="Skills" title="Skills"/>
-             <Navbutton image={projectsicon} alt="Projects" title="Projects"/>
-             <Navbutton image={contacticon} alt="Contact" title="Contact"/>
-             
+            </Link>
+            <Link to="/Skills">
+                <Navbutton image={skillsicon} alt="Skills" title="Skills"/>
+            </Link>
+            <Link to="/Projects">
+                <Navbutton image={projectsicon} alt="Projects" title="Projects"/>
+            </Link>
+            <Link to="/Contact">
+                <Navbutton image={contacticon} alt="Contact" title="Contact"/>
+            </Link> 
          </navbuttons>
          
          <sociallinks className="Sociallinks">
