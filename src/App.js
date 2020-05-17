@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation/Navigation';
-import './App.css';
+import './App.scss';
 import Home from './components/Home/Home.js';
 import Backgroundani from './components/Backgroundani/Backgroundani';
  

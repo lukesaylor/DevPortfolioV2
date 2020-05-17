@@ -1,0 +1,17 @@
+$bg-color:  #3A506B;
+$dot-color: #5BC0BE;
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+}
+ 
+
+ 
