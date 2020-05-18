@@ -11,7 +11,7 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
-import Backgroundani from './components/Backgroundani/Backgroundani';
+import BackgroundAnimation from './components/Animations/BackgroundAnimation';
  
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
      <Router>
         <Navigation/>
-        <Backgroundani/>
+        <BackgroundAnimation/>
       <Switch>
         <Route path="/" exact strict>
           <Home/>

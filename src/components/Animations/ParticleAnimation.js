@@ -1,8 +1,8 @@
 import React from "react";
-import './squareani.css';
+import './ParticleAnimation.css';
 
 
-const Squareani = (props) => (
+const ParticleAnimation = (props) => (
     <div className="square"
         style={{
             boxSizing:"border-box",
@@ -22,7 +22,7 @@ const Squareani = (props) => (
 
 );
 
-export default Squareani;
+export default ParticleAnimation;
 
 
  

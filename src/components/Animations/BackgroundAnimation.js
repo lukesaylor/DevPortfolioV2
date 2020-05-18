@@ -1,10 +1,10 @@
 import React from 'react';
-import './Backgroundani.css';
-import Squareani from './squareani';
+import './BackgroundAnimation.css';
+import ParticleAnimation from './ParticleAnimation';
 
-const Backgroundani = () => (
+const BackgroundAnimation = () => (
     <div className="Backgroundani">
-        <Squareani 
+        <ParticleAnimation 
             height="400px"
             width="200px"
             top="0%"
@@ -12,7 +12,7 @@ const Backgroundani = () => (
             hex="#6FFFE9"
             ani="squareslide 40s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="200px"
             width="200px"
             top="30%"
@@ -20,7 +20,7 @@ const Backgroundani = () => (
             hex="#0B132B"
             ani="squareslide 80s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="500px"
             width="200px"
             top="25%"
@@ -28,7 +28,7 @@ const Backgroundani = () => (
             hex="#6FFFE9"
             ani="squareslide 60s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="250px"
             width="300px"
             top="75%"
@@ -36,7 +36,7 @@ const Backgroundani = () => (
             hex="#5BC0BE"
             ani="squareslide 20s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="400px"
             width="200px"
             top="10%"
@@ -44,7 +44,7 @@ const Backgroundani = () => (
             hex="#6FFFE9"
             ani="squaresliderev 40s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="200px"
             width="200px"
             top="40%"
@@ -52,7 +52,7 @@ const Backgroundani = () => (
             hex="#0B132B"
             ani="squaresliderev 80s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="500px"
             width="200px"
             top="35%"
@@ -60,7 +60,7 @@ const Backgroundani = () => (
             hex="#6FFFE9"
             ani="squaresliderev 60s infinite"
                 />
-        <Squareani 
+        <ParticleAnimation 
             height="250px"
             width="300px"
             top="85%"
@@ -70,7 +70,7 @@ const Backgroundani = () => (
             />
         
 
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="5%"
@@ -78,7 +78,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squareslide 10s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="25%"
@@ -86,7 +86,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squareslide 8s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="30%"
@@ -94,7 +94,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squareslide 4s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="78%"
@@ -102,7 +102,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squareslide 9s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="15%"
@@ -110,7 +110,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squaresliderev 6s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="45%"
@@ -118,7 +118,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squaresliderev 12s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="40%"
@@ -126,7 +126,7 @@ const Backgroundani = () => (
             hex="#ffffff"
             ani="squaresliderev 8s infinite"
             />
-        <Squareani 
+        <ParticleAnimation 
             height="40px"
             width="40px"
             top="90%"
@@ -140,4 +140,4 @@ const Backgroundani = () => (
      )
    
 
-export default Backgroundani;
+export default BackgroundAnimation;
