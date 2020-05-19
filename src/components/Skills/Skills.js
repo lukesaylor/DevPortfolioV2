@@ -12,30 +12,33 @@ import {ReactComponent as ReactLogo} from '../../Assets/SkillsIcons/react.svg';
 import {ReactComponent as ReactRouterLogo} from '../../Assets/SkillsIcons/reactrouter.svg';
 import {ReactComponent as SassLogo} from '../../Assets/SkillsIcons/sass.svg';
 import {ReactComponent as VisualStudioLogo} from '../../Assets/SkillsIcons/visualstudiocode.svg';
+import SecurityPlus from '../../Assets/securityplus.png';
 
 const Skills = () => (
     <div className="Skillscontainer">
+    <img className="securityplus" src={SecurityPlus} alt="comptia security+"></img>
             <h1 className="Skillsheader">Skills</h1>
         <div className="SkillsContent">
             <div className="SkillsContentRow">
                 <div className="SkillsContentColumn"> 
-                    <SkillsIconContainer><JavascriptLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><HTML5Logo/> </SkillsIconContainer>
-                    <SkillsIconContainer><CSS3Logo/> </SkillsIconContainer>
+                    <SkillsIconContainer><JavascriptLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><HTML5Logo/></SkillsIconContainer>
+                    <SkillsIconContainer><CSS3Logo/></SkillsIconContainer>
                 </div>
                 <div className="SkillsContentColumn"> 
-                    <SkillsIconContainer><ReactLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><BootstrapLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><Githublogo/> </SkillsIconContainer>
+                    <SkillsIconContainer><ReactLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><BootstrapLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><Githublogo/></SkillsIconContainer>
                 </div>
                 <div className="SkillsContentColumn"> 
-                    <SkillsIconContainer><NPMLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><VisualStudioLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><ReactRouterLogo/> </SkillsIconContainer>
+                    <SkillsIconContainer><VisualStudioLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><ReactRouterLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><NPMLogo/></SkillsIconContainer>
+                     
                 </div>
                 <div className="SkillsContentColumn"> 
-                    <SkillsIconContainer><SassLogo/> </SkillsIconContainer>
-                    <SkillsIconContainer><PhotoshopLogo/> </SkillsIconContainer>
+                    <SkillsIconContainer><SassLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><PhotoshopLogo/></SkillsIconContainer>
                 </div>
             </div>
         </div>

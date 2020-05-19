@@ -6,6 +6,14 @@
     align-items: center;
 }
 
+.securityplus {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10vw;
+    animation: rollin 4s forwards;
+}
+
 @keyframes rollin {
     from{
         transform: translateY(-40vh) scale(2)  ;
