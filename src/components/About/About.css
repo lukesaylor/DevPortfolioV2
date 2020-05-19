@@ -55,12 +55,10 @@
 } 
 
 .AboutContent {
-     
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     width: 75%;
     height: 70vh;
+    overflow: scroll;
     border: 1px solid #6FFFE9;
     background-color: #1C2541;
     border-radius: 15px;
@@ -69,23 +67,46 @@
     
 }
 
+.AboutContent::-webkit-scrollbar {
+    display: none;
+}
+
+ 
 .Aboutimage {
     position: relative;
+    height: 20vh;
+    width: 20vh;
     overflow: hidden;
-    left: 3%;
-    top: 3%; 
-    width: 25%;
     border-radius: 50%;
     border: 3px solid #6FFFE9;
-    background-color: #3A506B;
+    background-color: #3A506B ;
+    margin-top:2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    shape-outside: circle();
+    float:left;    
 }
+
+.AboutText {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: left;
+    font-size: 3vh;
+    text-indent: 100px;
+}
+
+ 
 
 @media (max-width: 1050px) {
     .Aboutheader {
-        padding-top: 150px;
+        padding-top: 105px;
         font-size: 20vw;
         transform: translateY(0vh);
         animation: none;
+        bottom: 0vh;
+        
     }
     .Aboutcontainer {
         width: 100%;
@@ -94,6 +115,13 @@
     }
     .AboutContent {
         width: 95%;
+        color: #5BC0BE;
+        height: 63vh;
         animation:none;
+         
+    }
+
+    .AboutText{
+        text-align: left;
     }
 }

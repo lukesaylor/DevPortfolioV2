@@ -38,14 +38,14 @@
     }
     100% {
       transform: scale(1.5);
-      opacity: 0;
+      opacity: .1;
     }
 } 
 
  
 
 .buttonimg:hover {
-animation: grow 3s forwards;
+animation: grow 1.5s forwards;
 
 
 } 

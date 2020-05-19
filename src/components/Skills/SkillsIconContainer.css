@@ -1,0 +1,13 @@
+.SkillsIconContainer {
+    width: 100%;
+    padding: 5%;
+    
+    height: fit-content;
+    border-radius: 15px;
+    border:1px solid #6FFFE9;
+    background-color: #3A506B;
+    color: #5BC0BE;
+    box-sizing: border-box;
+    
+}
+ 
