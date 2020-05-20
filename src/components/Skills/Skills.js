@@ -12,7 +12,7 @@ import {ReactComponent as ReactLogo} from '../../Assets/SkillsIcons/react.svg';
 import {ReactComponent as ReactRouterLogo} from '../../Assets/SkillsIcons/reactrouter.svg';
 import {ReactComponent as SassLogo} from '../../Assets/SkillsIcons/sass.svg';
 import {ReactComponent as VisualStudioLogo} from '../../Assets/SkillsIcons/visualstudiocode.svg';
-import {ReactComponent as WiresharkLogo} from '../../Assets/SkillsIcons/wireshark-icon.svg';
+import {ReactComponent as NodeLogo} from '../../Assets/SkillsIcons/node-dot-js.svg';
 import SecurityPlus from '../../Assets/securityplus.png';
 
 const Skills = () => (
@@ -40,7 +40,7 @@ const Skills = () => (
                 <div className="SkillsContentColumn"> 
                     <SkillsIconContainer><SassLogo/></SkillsIconContainer>
                     <SkillsIconContainer><PhotoshopLogo/></SkillsIconContainer>
-                    <SkillsIconContainer style={{width:"20vw"}}><WiresharkLogo/></SkillsIconContainer>
+                    <SkillsIconContainer><NodeLogo/></SkillsIconContainer>
                 </div>
             </div>
         </div>
