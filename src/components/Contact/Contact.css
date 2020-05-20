@@ -2,6 +2,8 @@
     width: 91%;
     padding-left: 9vw;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @keyframes rollin {
@@ -34,9 +36,103 @@
     border: 0;
     transform: translateY(-40vh)  ;
     animation: rollin 3s forwards;
+    
      
     
 }
+
+.Contactform {
+    box-sizing: border-box;
+    width: 75%;
+    height: 70vh;
+    padding: 0%; 
+    border: 1px solid #6FFFE9;
+    background-color: #1C2541;
+    border-radius: 15px;
+    box-shadow: 20px 20px 15px #0B132B;
+    animation: contentrollin 3s forwards;   
+    display: flex;
+    flex-direction: column;
+    overflow: scroll; 
+    align-items: center;  
+    font-family: Bungee;
+    font-size: 3vh;
+
+}
+.Contactform::-webkit-scrollbar {
+    display: none;
+}
+
+.Contactform-topcontainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Contactform-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:1%;
+    
+}
+ 
+.Contactform-inputs {
+     
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%; 
+    padding: 1%; 
+    width: 100%;
+}
+ 
+.Contactform-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+}
+
+.Contactform-input  input {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    font-size: 3vh;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: inherit;
+    background-color: #3A506B;
+    border: 1px solid #6FFFE9;
+}
+
+.Contactform-message {
+    width: 90%;
+     
+     
+}
+
+.Contactform-message textarea  {
+    width: 100%;
+    font-size: 3vh;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: inherit;
+    background-color: #3A506B;
+}
+
+
+.Submitbutton {
+    height: 10%;
+    width: 25%;
+    font-family: inherit;
+    font-size: 2vw;
+    border: 1px solid #6FFFE9;
+    border-radius: 15px;
+    background-color: #6FFFE9;
+    color: #3A506B;
+} 
 
 @media (max-width: 1050px) {
     .Contactheader {
@@ -49,5 +145,24 @@
     .Contactcontainer {
         width: 100%;
         padding-left: 0vw;
+    }
+    .Contactform {
+         
+        width: 95%;
+        color: #5BC0BE;
+        height: 63vh;
+        animation:none;
+        font-size: 2vh;
+    }
+    .Submitbutton {
+        align-self: flex-end;
+        font-size: 2vh;
+        opacity: .5;
+        height: 8%;
+        margin-right: 2%; 
+        padding: 1%;
+    }
+    .Contactform-info {
+        text-align: center;
     }
 }
