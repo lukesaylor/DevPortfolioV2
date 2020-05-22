@@ -13,6 +13,12 @@
     src: local('BungeeShade'), url(./fonts/BungeeShade-Regular.ttf) format('truetype');
   }
 
+  @font-face {
+    font-family: 'Arimo';
+    src: local('Arimo'), url(./fonts/Arimo-Regular.ttf) format('truetype');
+  }
+
+
 
 body {
   margin: 0;
