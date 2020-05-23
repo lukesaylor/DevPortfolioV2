@@ -1,6 +1,6 @@
 .Contactcontainer {
     width: 91%;
-    padding-left: 9vw;
+    margin-left: 9vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,8 +43,8 @@
 
 .Contactform {
     box-sizing: border-box;
-    width: 75%;
-    height: 70vh;
+    width: 90%;
+    height: 80vh;
     padding: 0%; 
     border: 1px solid #6FFFE9;
     background-color: #1C2541;
@@ -53,6 +53,7 @@
     animation: contentrollin 1s forwards;   
     display: flex;
     flex-direction: column;
+    justify-content: center;
     overflow: scroll; 
     align-items: center;  
     font-family: Arimo;
@@ -76,13 +77,14 @@
     }
     .Contactcontainer {
         width: 100%;
-        padding-left: 0vw;
+        margin-left: 0vw;
     }
     .Contactform {
          
         width: 95%;
         color: #5BC0BE;
-        height: 63vh;
+        justify-content: start;
+        height: 70vh;
         animation:none;
         font-size: 2vh;
     }

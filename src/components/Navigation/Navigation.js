@@ -6,9 +6,7 @@ import skillsicon from '../../Assets/skills.png';
 import aboutmeicon from '../../Assets/aboutme.png';
 import projectsicon from '../../Assets/projects.png';
 import contacticon from '../../Assets/contact.png';
-import {ReactComponent as Githublogo} from '../../Assets/github.svg';
-import {ReactComponent as Leetcodelogo} from '../../Assets/leetcode.svg';
-import {ReactComponent as Linkedinlogo} from '../../Assets/linkedin.svg';
+
 import Navbutton from '../Navigation/Navbutton';
 import {Link} from 'react-router-dom';
  
@@ -35,21 +33,7 @@ const Navigation = () => (
             <Link to="/Contact">
                 <Navbutton image={contacticon} alt="Contact" title="Contact"/>
             </Link> 
-         </navbuttons>
-         
-         <sociallinks className="Sociallinks">
-            <a target="blank" href="https://github.com/lukesaylor">
-                <Githublogo className="Socialicon"/>
-            </a>
-            <a target="blank" href="https://leetcode.com/bigpancake/">
-                <Leetcodelogo className="Socialicon"/>
-            </a>
-            <a target="blank" href="http://www.linkedin.com">
-                <Linkedinlogo className="Socialicon"/>
-            </a>  
-         </sociallinks>    
-
-         
+         </navbuttons>         
     </div>
 )
 

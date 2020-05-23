@@ -79,24 +79,7 @@
 
 
 
-.Sociallinks {
-    position: absolute;
-    bottom: 2%;
-    width: 100%;
-    text-align: center;
-    
-       
-}
 
-.Socialicon  {
-    fill: #6FFFE9;
-    height: auto;
-    width: 30%;
-    padding: 1%;
-    opacity: .5;
-    
-    
-}
 
 
 
@@ -143,22 +126,7 @@
 
      
 
-    .Sociallinks {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-           
-    }
-    
-    .Socialicon  {
-        fill: #6FFFE9;
-        opacity: .7;
-        height: auto;
-        width: 15%;
-        padding: 1%;
-        
-    }
+   
 }
 
  

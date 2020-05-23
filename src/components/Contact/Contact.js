@@ -4,7 +4,9 @@ import axios from 'axios';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Mailicon from '../../Assets/Mailicon.png';
+import Phoneicon from '../../Assets/Phoneicon.png';
 
 
  
@@ -42,12 +44,18 @@ class Contact extends React.Component {
         return(
             <div className="Contactcontainer">
                 <h1 className="Contactheader">Contact</h1>
-                <Container  className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <Container fluid className="mx-auto">
+                <div className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                    <Container  className="mx-auto mt-2">
                         <Container>
-                            <Row className="justify-content-between"> 
-                              <Col><p>Email: Lsaylor@email.com</p></Col>
-                              <Col><p>Phone: 1-302-339-2012</p></Col>
+                            <Row className="justify-content-center"> 
+                              <Col md={4} className="d-flex justify-content-center">
+                                <img className="w-30" src={Mailicon} alt="Email"/>
+                                <p className="">Lsaylor@email.com</p>
+                              </Col>
+                              <Col md={{ span: 4, offset: 4 }} className="d-flex justify-content-center">
+                                <img className="w-30" src={Phoneicon} alt="Phone"/>
+                                <p>302-339-2012</p>
+                              </Col>
                             </Row>
                         </Container>
                         <div className="Contactform-inputs">
@@ -61,12 +69,14 @@ class Contact extends React.Component {
                             </div>
                         </div>
                     </Container>
-                    <Container fluid className="pt-3">
-                        
-                        <textarea className="form-control" rows="12" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                    <Container  className="pb-2">
+                        <label>Message:</label>
+                        <textarea className="form-control" rows="8" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                     </Container>
-                    <Button type="submit" className="Submitbutton">Submit</Button>
-                </Container>
+                    <Container  className="d-flex justify-content-end">
+                      <Button type="submit" className="Submitbutton">Submit</Button>
+                    </Container>
+                </div>
             </div>
         );
         }

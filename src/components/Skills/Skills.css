@@ -1,6 +1,6 @@
 .Skillscontainer {
     width: 91%;
-    padding-left: 9vw;
+    margin-left: 9vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,8 +49,8 @@
 }
 .SkillsContent { 
     box-sizing: border-box;
-    width: 75%;
-    height: 70vh;
+    width: 90%;
+    height: 80vh;
     overflow: scroll;
     border: 1px solid #6FFFE9;
     background-color: #1C2541;
@@ -105,13 +105,13 @@
     .SkillsContent {
         width: 95%;
         color: #5BC0BE;
-        height: 63vh;
+        height: 70vh;
         animation:none;
          
     }
 
     .Skillscontainer {
         width: 100%;
-        padding-left: 0vw;
+        margin-left: 0vw;
     }
 }
