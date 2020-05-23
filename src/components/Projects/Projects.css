@@ -46,7 +46,6 @@
     box-sizing: border-box;
     width: 90%;
     height: 80vh;
-    overflow: scroll;
     border: 1px solid #6FFFE9;
     background-color: #1C2541;
     border-radius: 15px;
@@ -57,6 +56,38 @@
  
 .ProjectsContent::-webkit-scrollbar {
     display: none;
+}
+
+.CarouselText{
+    box-sizing: border-box;
+    border: 2px solid #6FFFE9;
+    
+     
+    border-radius: 15px;
+    background-color: #3A506B;
+    opacity: .6;
+}
+
+ 
+
+.LiveIcon {
+    height: 6.2vh;
+     
+    margin: 0;
+    margin: .5vh;
+    fill:#5BC0BE;
+    
+
+}
+
+.ProjectGitIcon {
+    height: 4.7vh;
+     
+    margin: 0;
+    margin: .5vh;
+    fill:#5BC0BE;
+     
+
 }
  
   
@@ -82,5 +113,8 @@
         animation:none;
          
          
+    }
+    .CarouselItem {
+        height: 60vh;
     }
 }

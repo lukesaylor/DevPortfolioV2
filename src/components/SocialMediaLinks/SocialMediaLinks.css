@@ -1,6 +1,6 @@
 .SocialMediaContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
      position: fixed;
      bottom: 0;
      width: 100%;
@@ -12,7 +12,7 @@
 .SocialIcon {
     height: 7vh;
     margin: 0;
-    margin: 1vh;
+    margin: .5vh;
     fill:#5BC0BE;
     opacity: .5;
 
@@ -22,6 +22,8 @@
     .SocialMediaContainer {
         padding-left: 0;
     }
-
+    .SocialIcon{
+        height: 5vh;
+    }
 }
 

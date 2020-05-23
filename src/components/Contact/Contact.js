@@ -73,8 +73,8 @@ class Contact extends React.Component {
                         <label>Message:</label>
                         <textarea className="form-control" rows="8" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                     </Container>
-                    <Container  className="d-flex justify-content-end">
-                      <Button type="submit" className="Submitbutton">Submit</Button>
+                    <Container  className="d-flex justify-content-center p-5"  >
+                      <Button style={{'height':"50px"}} type="submit" className="Submitbutton">Submit</Button>
                     </Container>
                 </div>
             </div>
