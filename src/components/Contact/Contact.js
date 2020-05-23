@@ -1,6 +1,10 @@
 import React from 'react';
 import './Contact.css';
-import axios from 'axios'
+import axios from 'axios';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Row';
 
 
  
@@ -38,13 +42,14 @@ class Contact extends React.Component {
         return(
             <div className="Contactcontainer">
                 <h1 className="Contactheader">Contact</h1>
-                <form className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <div className="Contactform-topcontainer">
-                        <div className="Contactform-info">
-                            <p>Email: Lsaylor@email.com</p>
-                            <p>Phone: 1-302-339-2012</p>
-
-                        </div>
+                <Container  className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                    <Container fluid className="mx-auto">
+                        <Container>
+                            <Row className="justify-content-between"> 
+                              <Col><p>Email: Lsaylor@email.com</p></Col>
+                              <Col><p>Phone: 1-302-339-2012</p></Col>
+                            </Row>
+                        </Container>
                         <div className="Contactform-inputs">
                             <div className="Contactform-input">
                                 <label htmlFor="name">Name: </label>
@@ -55,13 +60,13 @@ class Contact extends React.Component {
                                 <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                             </div>
                         </div>
-                    </div>
-                    <div className="Contactform-message">
+                    </Container>
+                    <Container fluid className="pt-3">
                         
                         <textarea className="form-control" rows="12" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-                    </div>
-                    <button type="submit" className="Submitbutton">Submit</button>
-                </form>
+                    </Container>
+                    <Button type="submit" className="Submitbutton">Submit</Button>
+                </Container>
             </div>
         );
         }

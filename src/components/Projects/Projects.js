@@ -1,51 +1,66 @@
 import React from 'react';
 import './Projects.css';
 import Carousel  from 'react-bootstrap/Carousel';
-import Headshot from '../../Assets/Headshot.png';
+import FacialApp from '../../Assets/ProjectImages/FacialApp.png';
+import PigDice from '../../Assets/ProjectImages/PigDice.png';
+import RoboPals from '../../Assets/ProjectImages/RoboPals.png';
+import TheBills from '../../Assets/ProjectImages/TheBills.png';
 
 
 const Projects = () => (
     <div className="Projectscontainer">
         <h1 className="Projectsheader">Projects</h1>
-        <div className="ProjectsContent Container">
-        <Carousel style={{'top':"0",'height':"100%"}}>
-            <Carousel.Item style={{'height':"70vh"}}>
-                <img style={{'height':"60vh"}}
-                className="d-block w-100"
-                src={Headshot}
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{'height':"70vh"}}>
-                <img
-                className="d-block w-100"
-                src={Headshot}
-                alt="Third slide"
-                />
+        <div className="ProjectsContent">
+            <Carousel className="h-100">
+                <Carousel.Item>
+                    <img
+                    className="d-block mx-auto w-70 rounded pt-4"
+                    src={FacialApp}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>Facial Recognition App</h3>
+                    <p>Web image facial recognition app built in React</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block mx-auto w-70 rounded pt-4"
+                    src={PigDice}
+                    alt="Third slide"
+                    />
 
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{'height':"70vh"}}>
-                <img
-                className="d-block w-100"
-                src={Headshot}
-                alt="Third slide"
-                />
+                    <Carousel.Caption>
+                    <h3>Pig Dice Game</h3>
+                    <p>Pig Dice Game built in HTML/JS</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block mx-auto w-70 rounded pt-4"
+                    src= {RoboPals}
+                    alt="Third slide"
+                    />
 
-                <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
-    </div>
+                    <Carousel.Caption>
+                    <h3>RoboPals</h3>
+                    <p>API generated robot user directory built in React</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block mx-auto w-70 rounded pt-4"
+                    src= {TheBills}
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>The Bills Band Page</h3>
+                    <p>Band page built in React</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </div>
     </div>
 )
 

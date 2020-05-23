@@ -35,7 +35,7 @@
     margin: 0;
     border: 0;
     transform: translateY(-40vh)  ;
-    animation: rollin 3s forwards;
+    animation: rollin 1s forwards;
     
      
     
@@ -50,7 +50,7 @@
     background-color: #1C2541;
     border-radius: 15px;
     box-shadow: 20px 20px 15px #0B132B;
-    animation: contentrollin 3s forwards;   
+    animation: contentrollin 1s forwards;   
     display: flex;
     flex-direction: column;
     overflow: scroll; 
@@ -63,76 +63,7 @@
     display: none;
 }
 
-.Contactform-topcontainer {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.Contactform-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:1%;
-    
-}
  
-.Contactform-inputs {
-     
-    display: flex;
-    flex-direction: row;
-    padding-top: 5%; 
-    padding: 1%; 
-    width: 100%;
-}
- 
-.Contactform-input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1%;
-}
-
-.Contactform-input  input {
-    display: flex;
-    flex-direction: column;
-    width: 50%; 
-    font-size: 3vh;
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: inherit;
-    background-color: #3A506B;
-    border: 1px solid #6FFFE9;
-}
-
-.Contactform-message {
-    width: 90%;
-     
-     
-}
-
-.Contactform-message textarea  {
-    width: 100%;
-    font-size: 3vh;
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: inherit;
-    background-color: #3A506B;
-}
-
-
-.Submitbutton {
-    height: 10%;
-    width: 25%;
-    font-family: inherit;
-    font-size: 2vw;
-    border: 1px solid #6FFFE9;
-    border-radius: 15px;
-    background-color: #6FFFE9;
-    color: #3A506B;
-} 
 
 @media (max-width: 1050px) {
     .Contactheader {
@@ -155,17 +86,5 @@
         animation:none;
         font-size: 2vh;
     }
-    .Submitbutton {
-        align-self: flex-end;
-        font-size: 2vh;
-        opacity: .5;
-        height: 8%;
-        margin-right: 2%; 
-        padding: 1%;
-    }
-    .Contactform-info {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
+     
 }

@@ -35,7 +35,7 @@
     margin: 0;
     border: 0;
     transform: translateY(-40vh)  ;
-    animation: rollin 3s forwards;
+    animation: rollin 1s forwards;
      
     
 }
@@ -63,7 +63,7 @@
     background-color: #1C2541;
     border-radius: 15px;
     box-shadow: 20px 20px 15px #0B132B;
-    animation: contentrollin 3s forwards;
+    animation: contentrollin 1s forwards;
     
 }
 

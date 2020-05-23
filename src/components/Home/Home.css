@@ -22,7 +22,7 @@
    opacity: 0;
    z-index: -1;
    transform: scale(.10);
-   animation: homefadeslide 4s forwards;
+   animation: homefadeslide 1s forwards;
    -webkit-filter: drop-shadow(20px 20px 15px #0B132B);
     
 }
