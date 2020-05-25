@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DevPortfolioV2/static/css/main.18c46be7.chunk.css",
-    "main.js": "/DevPortfolioV2/static/js/main.033e7a4d.chunk.js",
-    "main.js.map": "/DevPortfolioV2/static/js/main.033e7a4d.chunk.js.map",
+    "main.css": "/DevPortfolioV2/static/css/main.ef17a796.chunk.css",
+    "main.js": "/DevPortfolioV2/static/js/main.0197785a.chunk.js",
+    "main.js.map": "/DevPortfolioV2/static/js/main.0197785a.chunk.js.map",
     "runtime-main.js": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js",
     "runtime-main.js.map": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js.map",
     "static/css/2.af3c1da9.chunk.css": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css",
     "static/js/2.177db673.chunk.js": "/DevPortfolioV2/static/js/2.177db673.chunk.js",
     "static/js/2.177db673.chunk.js.map": "/DevPortfolioV2/static/js/2.177db673.chunk.js.map",
     "index.html": "/DevPortfolioV2/index.html",
-    "precache-manifest.b88744fc6dc94ddfcb6b1d58e1177fc7.js": "/DevPortfolioV2/precache-manifest.b88744fc6dc94ddfcb6b1d58e1177fc7.js",
+    "precache-manifest.3975fc77ef4fbb4be31b42d9ad7c4bd0.js": "/DevPortfolioV2/precache-manifest.3975fc77ef4fbb4be31b42d9ad7c4bd0.js",
     "service-worker.js": "/DevPortfolioV2/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.18c46be7.chunk.css.map": "/DevPortfolioV2/static/css/main.18c46be7.chunk.css.map",
+    "static/css/main.ef17a796.chunk.css.map": "/DevPortfolioV2/static/css/main.ef17a796.chunk.css.map",
     "static/js/2.177db673.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.177db673.chunk.js.LICENSE.txt",
     "static/media/Arimo-Regular.ttf": "/DevPortfolioV2/static/media/Arimo-Regular.9fe23bf2.ttf",
     "static/media/Bungee-Regular.ttf": "/DevPortfolioV2/static/media/Bungee-Regular.259d4afa.ttf",
@@ -20,7 +20,7 @@
     "static/media/DevPortfolio.png": "/DevPortfolioV2/static/media/DevPortfolio.d7e35e89.png",
     "static/media/FacialApp.png": "/DevPortfolioV2/static/media/FacialApp.8068efbc.png",
     "static/media/Headshot.png": "/DevPortfolioV2/static/media/Headshot.8cb7dbcc.png",
-    "static/media/Homemain.png": "/DevPortfolioV2/static/media/Homemain.5e9ac527.png",
+    "static/media/Homemain.png": "/DevPortfolioV2/static/media/Homemain.e09b563f.png",
     "static/media/Homemobile.png": "/DevPortfolioV2/static/media/Homemobile.9fe53565.png",
     "static/media/LSicon.png": "/DevPortfolioV2/static/media/LSicon.9b0ef868.png",
     "static/media/Pacifico-Regular.ttf": "/DevPortfolioV2/static/media/Pacifico-Regular.9b94499c.ttf",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.9ddf1694.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.177db673.chunk.js",
-    "static/css/main.18c46be7.chunk.css",
-    "static/js/main.033e7a4d.chunk.js"
+    "static/css/main.ef17a796.chunk.css",
+    "static/js/main.0197785a.chunk.js"
   ]
 }
