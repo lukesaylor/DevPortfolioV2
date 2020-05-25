@@ -55,7 +55,7 @@ class Contact extends React.Component {
                               </Col>
                               <Col md={{ span: 4, offset: 4 }} className="d-flex justify-content-center">
                                 <img className="w-30" src={Phoneicon} alt="Phone"/>
-                                <a href="tel:13023392012">302-339-2012</a>
+                                <a style={{"color":"inherit"}} href="tel:13023392012">302-339-2012</a>
                               </Col>
                             </Row>
                         </Container>
