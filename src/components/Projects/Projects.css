@@ -96,7 +96,7 @@
 
 @media (max-width: 1050px) {
     .Projectsheader {
-        padding-top: 120px;
+        padding-top: 100px;
         font-size: 10vw;
         transform: translateY(0vh);
         animation: none;
