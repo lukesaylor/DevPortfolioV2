@@ -40,7 +40,7 @@ const Projects = () => (
                     <img
                     className="d-block mx-auto rounded mt-5"
                     src={PigDice}
-                    alt="Third slide"
+                    alt="Second slide"
                     />
                         <Carousel.Caption className='CarouselText'>
                             <h3>Pig Dice Game</h3>
@@ -78,7 +78,7 @@ const Projects = () => (
                     <img
                     className="d-block mx-auto rounded mt-5"
                     src= {TheBills}
-                    alt="Third slide"
+                    alt="Fourth slide"
                     />
                         <Carousel.Caption className='CarouselText'>
                             <h3>The Bills Band Page</h3>
@@ -97,7 +97,7 @@ const Projects = () => (
                     <img 
                     className="d-block mx-auto rounded mt-5"
                     src= {DevPortfolio}
-                    alt="Third slide"
+                    alt="Fifth Slide"
                     />
                         <Carousel.Caption className='CarouselText'>
                             <h3>Developer Portfolio</h3>

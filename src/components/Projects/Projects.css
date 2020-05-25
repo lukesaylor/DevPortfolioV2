@@ -51,6 +51,7 @@
     border-radius: 15px;
     box-shadow: 20px 20px 15px #0B132B;
     animation: contentrollin 1s forwards;
+    z-index: 2;
 }
     
  
@@ -65,7 +66,7 @@
      
     border-radius: 15px;
     background-color: #3A506B;
-    opacity: .6;
+    opacity: .9;
 }
 
  

@@ -58,6 +58,7 @@
     align-items: center;  
     font-family: Arimo;
     font-size: 3vh;
+    z-index: 2;
 
 }
 .Contactform::-webkit-scrollbar {

@@ -56,7 +56,8 @@
     background-color: #1C2541;
     border-radius: 15px;
     box-shadow: 20px 20px 15px #0B132B;
-    animation: contentrollin 1s forwards;        
+    animation: contentrollin 1s forwards;
+    z-index: 2;        
 }
 
  

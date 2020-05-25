@@ -13,7 +13,7 @@ const SocialMediaLinks = () => (
             <a target="blank" href="https://leetcode.com/bigpancake/">
                 <Leetcodelogo className="SocialIcon"/>
             </a>
-            <a target="blank" href="http://www.linkedin.com">
+            <a target="blank" href="http://www.linkedin.com/in/LukasSaylor/">
                 <Linkedinlogo className="SocialIcon"/>
             </a>  
            
