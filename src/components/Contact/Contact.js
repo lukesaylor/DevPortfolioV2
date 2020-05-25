@@ -51,7 +51,7 @@ class Contact extends React.Component {
                             <Row className="justify-content-center"> 
                               <Col md={4} className="d-flex justify-content-center">
                                 <img className="w-30" src={Mailicon} alt="Email"/>
-                                <a href="mailto: lsaylor@email.com">Lsaylor@email.com</a>
+                                <a style={{"color":"inherit"}}href="mailto: lsaylor@email.com">Lsaylor@email.com</a>
                               </Col>
                               <Col md={{ span: 4, offset: 4 }} className="d-flex justify-content-center">
                                 <img className="w-30" src={Phoneicon} alt="Phone"/>
