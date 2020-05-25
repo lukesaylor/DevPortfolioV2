@@ -27,9 +27,10 @@ class Contact extends React.Component {
     
         axios({
           method: "POST", 
-          url:"http://localhost:3002/send", 
+          url:"https://sayloremailapi.azurewebsites.net/", 
           data:  this.state
         }).then((response)=>{
+           
           if (response.data.status === 'success'){
             alert("Message Sent."); 
              
@@ -44,7 +45,7 @@ class Contact extends React.Component {
         return(
             <div className="Contactcontainer">
                 <h1 className="Contactheader">Contact</h1>
-                <div className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                <form className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
                     <Container  className="mx-auto mt-2">
                         <Container>
                             <Row className="justify-content-center"> 
@@ -76,7 +77,7 @@ class Contact extends React.Component {
                     <Container  className="d-flex justify-content-center p-5"  >
                       <Button style={{'height':"50px"}} type="submit" className="Submitbutton">Submit</Button>
                     </Container>
-                </div>
+                </form>
             </div>
         );
         }
