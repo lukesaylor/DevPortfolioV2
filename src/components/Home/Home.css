@@ -46,6 +46,7 @@
     -webkit-filter: drop-shadow(20px 20px 15px #0B132B);
     transform: translateX(40vw);
     animation: CertSlide 1s forwards;
+    z-index: 5;
 
 } 
 
