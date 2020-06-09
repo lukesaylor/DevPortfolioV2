@@ -26,8 +26,11 @@
     z-index: 5;
     transform: translateY(100vh);
     animation: navbarslide 1s forwards;
+    overflow: scroll;   
+}
 
-    
+.Navigation::-webkit-scrollbar {
+    display: none;
 }
 
 @keyframes navslidein {
