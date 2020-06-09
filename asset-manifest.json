@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/DevPortfolioV2/static/css/main.11891706.chunk.css",
-    "main.js": "/DevPortfolioV2/static/js/main.95c25eae.chunk.js",
-    "main.js.map": "/DevPortfolioV2/static/js/main.95c25eae.chunk.js.map",
+    "main.css": "/DevPortfolioV2/static/css/main.e15b0a58.chunk.css",
+    "main.js": "/DevPortfolioV2/static/js/main.f744ff4f.chunk.js",
+    "main.js.map": "/DevPortfolioV2/static/js/main.f744ff4f.chunk.js.map",
     "runtime-main.js": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js",
     "runtime-main.js.map": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js.map",
     "static/css/2.af3c1da9.chunk.css": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.177db673.chunk.js": "/DevPortfolioV2/static/js/2.177db673.chunk.js",
-    "static/js/2.177db673.chunk.js.map": "/DevPortfolioV2/static/js/2.177db673.chunk.js.map",
+    "static/js/2.05da2bea.chunk.js": "/DevPortfolioV2/static/js/2.05da2bea.chunk.js",
+    "static/js/2.05da2bea.chunk.js.map": "/DevPortfolioV2/static/js/2.05da2bea.chunk.js.map",
     "index.html": "/DevPortfolioV2/index.html",
-    "precache-manifest.d8ce4b5e75c2f5ca21ad4d0cd990405d.js": "/DevPortfolioV2/precache-manifest.d8ce4b5e75c2f5ca21ad4d0cd990405d.js",
+    "precache-manifest.122e4e5de63f546128dbf05f6940f98a.js": "/DevPortfolioV2/precache-manifest.122e4e5de63f546128dbf05f6940f98a.js",
     "service-worker.js": "/DevPortfolioV2/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.11891706.chunk.css.map": "/DevPortfolioV2/static/css/main.11891706.chunk.css.map",
-    "static/js/2.177db673.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.177db673.chunk.js.LICENSE.txt",
+    "static/css/main.e15b0a58.chunk.css.map": "/DevPortfolioV2/static/css/main.e15b0a58.chunk.css.map",
+    "static/js/2.05da2bea.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.05da2bea.chunk.js.LICENSE.txt",
     "static/media/Arimo-Regular.ttf": "/DevPortfolioV2/static/media/Arimo-Regular.9fe23bf2.ttf",
     "static/media/Bungee-Regular.ttf": "/DevPortfolioV2/static/media/Bungee-Regular.259d4afa.ttf",
     "static/media/BungeeShade-Regular.ttf": "/DevPortfolioV2/static/media/BungeeShade-Regular.ef898acb.ttf",
+    "static/media/CSCP.png": "/DevPortfolioV2/static/media/CSCP.c9501806.png",
     "static/media/DevPortfolio.png": "/DevPortfolioV2/static/media/DevPortfolio.d7e35e89.png",
     "static/media/FacialApp.png": "/DevPortfolioV2/static/media/FacialApp.8068efbc.png",
     "static/media/Headshot.png": "/DevPortfolioV2/static/media/Headshot.8cb7dbcc.png",
@@ -29,6 +30,7 @@
     "static/media/TheBills.png": "/DevPortfolioV2/static/media/TheBills.2a8741d7.png",
     "static/media/adobephotoshop.bc6a3137.svg": "/DevPortfolioV2/static/media/adobephotoshop.bc6a3137.svg",
     "static/media/bootstrap.b1b360f5.svg": "/DevPortfolioV2/static/media/bootstrap.b1b360f5.svg",
+    "static/media/cloudplus.png": "/DevPortfolioV2/static/media/cloudplus.68d69509.png",
     "static/media/css3.b675af60.svg": "/DevPortfolioV2/static/media/css3.b675af60.svg",
     "static/media/github.617870e4.svg": "/DevPortfolioV2/static/media/github.617870e4.svg",
     "static/media/html5.3056bf2f.svg": "/DevPortfolioV2/static/media/html5.3056bf2f.svg",
@@ -46,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ddf1694.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.177db673.chunk.js",
-    "static/css/main.11891706.chunk.css",
-    "static/js/main.95c25eae.chunk.js"
+    "static/js/2.05da2bea.chunk.js",
+    "static/css/main.e15b0a58.chunk.css",
+    "static/js/main.f744ff4f.chunk.js"
   ]
 }
