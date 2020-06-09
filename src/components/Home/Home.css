@@ -27,8 +27,30 @@
     
 }
 
-.HomeImageText {
-    
+@keyframes CertSlide {
+    0% {
+        transform: translateX(40vw);
+    }
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+.CertLogos {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    -webkit-filter: drop-shadow(20px 20px 15px #0B132B);
+    transform: translateX(40vw);
+    animation: CertSlide 1s forwards;
+
+} 
+
+.CertIcon {
+    width: 100%;
 }
 
 .Homemobile {
@@ -52,12 +74,17 @@
         bottom: 0;
         right: 0;
         max-width: 600px; 
-        max-height: 90vh;
-         
-        
-        
-
-        
-         
+        max-height: 90vh;     
+    }
+    .CertLogos {
+         display: flex;
+         flex-direction: column;
+         position: fixed;
+         left: 0;
+         top: 100px;
+         width: 15vw;
+         z-index: 5;
+         animation: none;
+         transform: none;
     }
 }

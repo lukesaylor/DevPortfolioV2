@@ -13,11 +13,11 @@ import {ReactComponent as ReactRouterLogo} from '../../Assets/SkillsIcons/reactr
 import {ReactComponent as SassLogo} from '../../Assets/SkillsIcons/sass.svg';
 import {ReactComponent as VisualStudioLogo} from '../../Assets/SkillsIcons/visualstudiocode.svg';
 import {ReactComponent as NodeLogo} from '../../Assets/SkillsIcons/node-dot-js.svg';
-import SecurityPlus from '../../Assets/securityplus.png';
+
 
 const Skills = () => (
     <div className="Skillscontainer">
-    <img className="securityplus" src={SecurityPlus} alt="comptia security+"></img>
+    
             <h1 className="Skillsheader">Skills</h1>
         <div className="SkillsContent">
             <div className="SkillsContentRow">
