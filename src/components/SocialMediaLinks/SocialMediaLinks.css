@@ -4,7 +4,7 @@
      position: fixed;
      bottom: 0;
      width: 100%;
-     padding-left: 9vw;
+      
      z-index: 100;
      
 }
@@ -12,7 +12,7 @@
 .SocialIcon {
     height: 7vh;
     margin: 0;
-    margin: .5vh;
+    margin: .7vh;
     fill:#5BC0BE;
     opacity: .5;
 
