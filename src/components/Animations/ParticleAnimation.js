@@ -1,28 +1,23 @@
 import React from "react";
-import './ParticleAnimation.css';
-
+import "./ParticleAnimation.css";
 
 const ParticleAnimation = (props) => (
-    <div className="square"
-        style={{
-            boxSizing:"border-box",
-            boxShadow:"20px 20px 10px",
-            position:"fixed",
-            height: props.height,
-            width: props.width,
-            top: props.top,
-            zIndex: props.z,
-            backgroundColor:props.hex,
-            opacity:".1",
-            borderRadius:"20px",
-            animation: props.ani
-            }}
-    
-    ></div>
-
+  <div
+    className="square"
+    style={{
+      boxSizing: "border-box",
+      boxShadow: "20px 20px 10px",
+      position: "fixed",
+      height: props.height,
+      width: props.width,
+      top: props.top,
+      zIndex: props.z,
+      backgroundColor: props.hex,
+      opacity: ".1",
+      borderRadius: "20px",
+      animation: props.ani,
+    }}
+  ></div>
 );
 
 export default ParticleAnimation;
-
-
- 

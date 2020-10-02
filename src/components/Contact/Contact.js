@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import Container from "react-bootstrap/Container";
 import emailjs from "emailjs-com";
 import ApiKeys from "../../ApiKeys";
 
