@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "864cf83886d98c7eb97bb8a7229f6510",
+    "revision": "16f831ec2862f7dfef69f2c4342b0daf",
     "url": "/DevPortfolioV2/index.html"
   },
   {
-    "revision": "026c790b8467e77f6b74",
+    "revision": "25b5ec7c511b5f3631a8",
     "url": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "db5a5af4a512c0370599",
-    "url": "/DevPortfolioV2/static/css/main.ada31d2a.chunk.css"
+    "revision": "62d0bcc418f498881bf7",
+    "url": "/DevPortfolioV2/static/css/main.365fff5e.chunk.css"
   },
   {
-    "revision": "026c790b8467e77f6b74",
-    "url": "/DevPortfolioV2/static/js/2.05da2bea.chunk.js"
+    "revision": "25b5ec7c511b5f3631a8",
+    "url": "/DevPortfolioV2/static/js/2.f82f7481.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/DevPortfolioV2/static/js/2.05da2bea.chunk.js.LICENSE.txt"
+    "url": "/DevPortfolioV2/static/js/2.f82f7481.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db5a5af4a512c0370599",
-    "url": "/DevPortfolioV2/static/js/main.f744ff4f.chunk.js"
+    "revision": "62d0bcc418f498881bf7",
+    "url": "/DevPortfolioV2/static/js/main.6db594d8.chunk.js"
   },
   {
     "revision": "cffda4d198f1b8184ae6",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9501806236a0d233ce442738ddb9e0a",
     "url": "/DevPortfolioV2/static/media/CSCP.c9501806.png"
-  },
-  {
-    "revision": "d7e35e893824029ef3e72cb7812a318e",
-    "url": "/DevPortfolioV2/static/media/DevPortfolio.d7e35e89.png"
   },
   {
     "revision": "8068efbc82d412a6c52732759947bd12",
@@ -92,8 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DevPortfolioV2/static/media/bootstrap.b1b360f5.svg"
   },
   {
+    "revision": "33944196febb94615f49512da8c544fd",
+    "url": "/DevPortfolioV2/static/media/chatapp.33944196.png"
+  },
+  {
     "revision": "68d69509eecc8eea558bd4248ada415b",
     "url": "/DevPortfolioV2/static/media/cloudplus.68d69509.png"
+  },
+  {
+    "revision": "86c25a434381acf3d237266bc1010430",
+    "url": "/DevPortfolioV2/static/media/covidapp.86c25a43.png"
   },
   {
     "revision": "b675af6016eed403de51899be75efe59",
