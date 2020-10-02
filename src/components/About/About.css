@@ -1,132 +1,119 @@
 .Aboutcontainer {
-    width: 91%;
-    margin-left: 9vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 91%;
+  margin-left: 9vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes rollin {
-    from{
-        transform: translateY(-40vh) scale(2)  ;
-        color:#0B132B ;
-        text-shadow: 500px -500px 10px  #0B132B
-         
-    }
-    to{
-        transform: translateY(0) scale(1) ;
-        color: #5BC0BE;
-        text-shadow: 20px 20px 15px  #0B132B
-    }
+  from {
+    transform: translateY(-40vh) scale(2);
+    color: #0b132b;
+    text-shadow: 500px -500px 10px #0b132b;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    color: #5bc0be;
+    text-shadow: 20px 20px 15px #0b132b;
+  }
 }
 
 .Aboutheader {
-    position: relative;
-    bottom: 5vh;
-    width: 100%;
-    text-align: center;
-    font-family: Arimo;
-    font-size: 4vw;
-    color: #5BC0BE;
-    text-shadow: 20px 20px 10px  #0B132B;
-    -webkit-text-stroke: 1px #0B132B;
-    text-decoration: 10px;
-    padding-top: 5%;
-    margin: 0;
-    border: 0;
-    transform: translateY(-40vh)  ;
-    animation: rollin 1s forwards;
-     
-    
+  position: relative;
+  bottom: 5vh;
+  width: 100%;
+  text-align: center;
+  font-family: Arimo;
+  font-size: 4vw;
+  color: #5bc0be;
+  text-shadow: 20px 20px 10px #0b132b;
+  -webkit-text-stroke: 1px #0b132b;
+  text-decoration: 10px;
+  padding-top: 5%;
+  margin: 0;
+  border: 0;
+  transform: translateY(-40vh);
+  animation: rollin 1s forwards;
 }
 
 @keyframes contentrollin {
-    from{
-        transform: translateY(100vh) scale(1.5)  ;
-        color:#1C2541 ;
-        text-shadow: 500px -500px 10px  #0B132B
-         
-    }
-    to{
-        transform: translateY(0) scale(1) ;
-        color: #5BC0BE;
-        text-shadow: 20px 20px 15px  #0B132B
-    }
-} 
+  from {
+    transform: translateY(100vh) scale(1.5);
+    color: #1c2541;
+    text-shadow: 500px -500px 10px #0b132b;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    color: #5bc0be;
+    text-shadow: 20px 20px 15px #0b132b;
+  }
+}
 
 .AboutContent {
-    box-sizing: border-box;
-    width: 90%;
-    height: 80vh;
-    overflow: scroll;
-    border: 1px solid #6FFFE9;
-    background-color: #1C2541;
-    border-radius: 15px;
-    box-shadow: 20px 20px 15px #0B132B;
-    animation: contentrollin 1s forwards;
-    z-index: 2;
-    
+  box-sizing: border-box;
+  width: 90%;
+  height: 80vh;
+  overflow: scroll;
+  border: 1px solid #6fffe9;
+  background-color: rgba(28, 37, 65, 0.7);
+  border-radius: 15px;
+  box-shadow: 20px 20px 15px #0b132b;
+  animation: contentrollin 1s forwards;
+  z-index: 2;
 }
 
 .AboutContent::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
- 
 .Aboutimage {
-    position: relative;
-    height: 20vh;
-    width: 20vh;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 3px solid #6FFFE9;
-    background-color: #3A506B ;
-    margin-top:2vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    shape-outside: circle();
-    float:left;    
+  position: relative;
+  height: 20vh;
+  width: 20vh;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #6fffe9;
+  background-color: #3a506b;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  shape-outside: circle();
+  float: left;
 }
 
 .AboutText {
-    padding-top: 5%;
-    position: relative;
-    width: 90%;
-    margin: auto;
-    font-family:  Arimo;
-    text-align: left;
-    font-size: 3vh;
-    text-indent: 100px;
+  padding-top: 5%;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  font-family: Arimo;
+  text-align: left;
+  font-size: 3vh;
+  text-indent: 100px;
 }
 
- 
-
 @media (max-width: 1050px) {
-    .Aboutheader {
-        padding-top: 100px;
-        font-size: 10vw;
-        transform: translateY(0vh);
-        animation: none;
-        bottom: 0vh;
-        
-    }
-    .Aboutcontainer {
-        width: 100%;
-        margin-left: 0vw;
+  .Aboutheader {
+    padding-top: 100px;
+    font-size: 10vw;
+    transform: translateY(0vh);
+    animation: none;
+    bottom: 0vh;
+  }
+  .Aboutcontainer {
+    width: 100%;
+    margin-left: 0vw;
+  }
+  .AboutContent {
+    width: 95%;
+    color: #5bc0be;
+    height: 70vh;
+    animation: none;
+  }
 
-         
-    }
-    .AboutContent {
-        width: 95%;
-        color: #5BC0BE;
-        height: 70vh;
-        animation:none;
-         
-         
-    }
-
-    .AboutText{
-        text-align: left;
-        font-size: 2.5vh;
-    }
+  .AboutText {
+    text-align: left;
+    font-size: 2.5vh;
+  }
 }

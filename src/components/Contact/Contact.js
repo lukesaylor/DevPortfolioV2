@@ -1,101 +1,40 @@
-import React from 'react';
-import './Contact.css';
-import axios from 'axios';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Mailicon from '../../Assets/Mailicon.png';
-import Phoneicon from '../../Assets/Phoneicon.png';
+import React from "react";
+import "./Contact.css";
+import Container from "react-bootstrap/Container";
+import emailjs from "emailjs-com";
+import ApiKeys from "../../ApiKeys";
 
-
- 
- 
-
-class Contact extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        name: '',
-        email: '',
-        message: ''
-      }
-    }
-
-    handleSubmit(e){
-        e.preventDefault();
-    
-        axios({
-          method: "POST", 
-          url:"https://sayloremailapi.azurewebsites.net/", 
-          data:  this.state
-        }).then((response)=>{
-           
-          if (response.data.status === 'success'){
-            alert("Message Sent."); 
-             
-          }else if(response.data.status === 'fail'){
-            alert("Message failed to send.")
-          }
-        })
-      }
-
-  
-        render() {
-        return(
-            <div className="Contactcontainer">
-                <h1 className="Contactheader">Contact</h1>
-                <form className="Contactform" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <Container  className="mx-auto mt-2">
-                        <Container>
-                            <Row className="justify-content-center"> 
-                              <Col md={4} className="d-flex justify-content-center">
-                                <img className="w-30" src={Mailicon} alt="Email"/>
-                                <a style={{"color":"inherit"}}href="mailto: lsaylor@email.com">Lsaylor@email.com</a>
-                              </Col>
-                              <Col md={{ span: 4, offset: 4 }} className="d-flex justify-content-center">
-                                <img className="w-30" src={Phoneicon} alt="Phone"/>
-                                <a style={{"color":"inherit"}} href="tel:13023392012">302-339-2012</a>
-                              </Col>
-                            </Row>
-                        </Container>
-                        <div className="Contactform-inputs">
-                            <div className="Contactform-input">
-                                <label htmlFor="name">Name: </label>
-                                <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                            </div>
-                            <div className="Contactform-input">
-                                <label htmlFor="exampleInputEmail1">Email address: </label>
-                                <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-                            </div>
-                        </div>
-                    </Container>
-                    <Container  className="pb-2">
-                        <label>Message:</label>
-                        <textarea className="form-control" rows="8" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-                    </Container>
-                    <Container  className="d-flex justify-content-center p-5"  >
-                      <Button style={{'height':"50px"}} type="submit" className="Submitbutton">Submit</Button>
-                    </Container>
-                </form>
-            </div>
-        );
+function Contact() {
+  const onSubmit = (e) => {
+    e.preventDefault(); // Prevents default refresh by the browser
+    emailjs
+      .sendForm("smtp_server", ApiKeys.TEMPLATE_ID, e.target, ApiKeys.USER_ID)
+      .then(
+        (result) => {
+          alert("Message Sent, I'll get back to you shortly", result.text);
+        },
+        (error) => {
+          alert("An error occured, Plese try again", error.text);
         }
-  
-    onNameChange(event) {
-      this.setState({name: event.target.value})
-    }
-  
-    onEmailChange(event) {
-      this.setState({email: event.target.value})
-    }
-  
-    onMessageChange(event) {
-      this.setState({message: event.target.value})
-    }
+      );
+  };
 
+  return (
+    <div className="Contactcontainer">
+      <h1 className="Contactheader">Contact</h1>
+      <div className="ContactContent">
+        <form onSubmit={onSubmit}>
+          <p>Your Email:</p>
+          <input name="name" type="text" placeholder="Email" />
+          <p>Subject:</p>
+          <input name="subject" type="text" placeholder="Subject…" />
+          <p>Your Message:</p>
+          <textarea name="message" type="text" placeholder="Your Message…" />
+          <button>SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+  );
 }
-  
-   
-  
-  export default Contact;
+
+export default Contact;

@@ -3,7 +3,7 @@
     padding: 15%;
     height: fit-content;
     border-radius: 15px;
-    background-color: #1C2541;
+     
     fill: #5BC0BE;
     box-sizing: border-box;
     font-family: BungeeShade ;
@@ -19,8 +19,8 @@
         transform: scale(1);
     }
     50%{
-        -webkit-filter: drop-shadow(30px 20px 30px #3A506B);
-        transform: scale(1.5);
+         
+        transform: scale(1.1);
     }
     100%{
         transform:scale(1)
@@ -30,7 +30,7 @@
 .SkillIcon {
     stroke: white;
     stroke-width: 1%;
-    -webkit-filter: drop-shadow(20px 20px 1px #3A506B);
+     
 }
 
 .SkillIcon:hover {

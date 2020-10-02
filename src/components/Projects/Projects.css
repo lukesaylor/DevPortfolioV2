@@ -47,7 +47,7 @@
     width: 90%;
     height: 80vh;
     border: 1px solid #6FFFE9;
-    background-color: #1C2541;
+    background-color: rgba(28, 37, 65, 0.7);
     border-radius: 15px;
     box-shadow: 20px 20px 15px #0B132B;
     animation: contentrollin 1s forwards;
