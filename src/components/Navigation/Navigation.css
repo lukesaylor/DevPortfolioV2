@@ -102,6 +102,7 @@
         transform: none;
         animation: none;
         overflow: hidden;
+        z-index: 10;
     }
 
     .LSicon {

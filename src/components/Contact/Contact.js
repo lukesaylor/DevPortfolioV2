@@ -24,7 +24,7 @@ function Contact() {
       <div className="ContactContent">
         <form onSubmit={onSubmit}>
           <p>Your Email:</p>
-          <input name="name" type="text" placeholder="Email" />
+          <input name="name" type="text" placeholder="Email..." />
           <p>Subject:</p>
           <input name="subject" type="text" placeholder="Subject…" />
           <p>Your Message:</p>

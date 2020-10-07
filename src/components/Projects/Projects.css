@@ -91,10 +91,8 @@
     margin-left: 0vw;
   }
   .ProjectsContent {
-    width: 95%;
-    color: #5bc0be;
-    height: 70vh;
-    animation: none;
+    height: 75vh;
+    width: 100%;
   }
   .CarouselItem {
     height: 60vh;
