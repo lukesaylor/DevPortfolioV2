@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DevPortfolioV2/static/css/main.365fff5e.chunk.css",
-    "main.js": "/DevPortfolioV2/static/js/main.6db594d8.chunk.js",
-    "main.js.map": "/DevPortfolioV2/static/js/main.6db594d8.chunk.js.map",
+    "main.css": "/DevPortfolioV2/static/css/main.7c75f556.chunk.css",
+    "main.js": "/DevPortfolioV2/static/js/main.351b21c0.chunk.js",
+    "main.js.map": "/DevPortfolioV2/static/js/main.351b21c0.chunk.js.map",
     "runtime-main.js": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js",
     "runtime-main.js.map": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js.map",
     "static/css/2.af3c1da9.chunk.css": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f82f7481.chunk.js": "/DevPortfolioV2/static/js/2.f82f7481.chunk.js",
-    "static/js/2.f82f7481.chunk.js.map": "/DevPortfolioV2/static/js/2.f82f7481.chunk.js.map",
+    "static/js/2.4b6ba5cb.chunk.js": "/DevPortfolioV2/static/js/2.4b6ba5cb.chunk.js",
+    "static/js/2.4b6ba5cb.chunk.js.map": "/DevPortfolioV2/static/js/2.4b6ba5cb.chunk.js.map",
     "index.html": "/DevPortfolioV2/index.html",
-    "precache-manifest.59ee95c8cee490b8569a11400d8d6645.js": "/DevPortfolioV2/precache-manifest.59ee95c8cee490b8569a11400d8d6645.js",
+    "precache-manifest.9b96cf7083bd256795b25c419d16143d.js": "/DevPortfolioV2/precache-manifest.9b96cf7083bd256795b25c419d16143d.js",
     "service-worker.js": "/DevPortfolioV2/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.365fff5e.chunk.css.map": "/DevPortfolioV2/static/css/main.365fff5e.chunk.css.map",
-    "static/js/2.f82f7481.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.f82f7481.chunk.js.LICENSE.txt",
+    "static/css/main.7c75f556.chunk.css.map": "/DevPortfolioV2/static/css/main.7c75f556.chunk.css.map",
+    "static/js/2.4b6ba5cb.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.4b6ba5cb.chunk.js.LICENSE.txt",
     "static/media/Arimo-Regular.ttf": "/DevPortfolioV2/static/media/Arimo-Regular.9fe23bf2.ttf",
     "static/media/Bungee-Regular.ttf": "/DevPortfolioV2/static/media/Bungee-Regular.259d4afa.ttf",
     "static/media/BungeeShade-Regular.ttf": "/DevPortfolioV2/static/media/BungeeShade-Regular.ef898acb.ttf",
@@ -36,7 +36,6 @@
     "static/media/github.617870e4.svg": "/DevPortfolioV2/static/media/github.617870e4.svg",
     "static/media/html5.3056bf2f.svg": "/DevPortfolioV2/static/media/html5.3056bf2f.svg",
     "static/media/javascript.1f606957.svg": "/DevPortfolioV2/static/media/javascript.1f606957.svg",
-    "static/media/leetcode.edbde22c.svg": "/DevPortfolioV2/static/media/leetcode.edbde22c.svg",
     "static/media/linkedin.619231ff.svg": "/DevPortfolioV2/static/media/linkedin.619231ff.svg",
     "static/media/node-dot-js.e1d7fcc9.svg": "/DevPortfolioV2/static/media/node-dot-js.e1d7fcc9.svg",
     "static/media/npm.06851a19.svg": "/DevPortfolioV2/static/media/npm.06851a19.svg",
@@ -49,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ddf1694.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f82f7481.chunk.js",
-    "static/css/main.365fff5e.chunk.css",
-    "static/js/main.6db594d8.chunk.js"
+    "static/js/2.4b6ba5cb.chunk.js",
+    "static/css/main.7c75f556.chunk.css",
+    "static/js/main.351b21c0.chunk.js"
   ]
 }
