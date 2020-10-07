@@ -1,122 +1,102 @@
 .Projectscontainer {
-    width: 91%;
-    margin-left: 9vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 92vw;
+  margin-left: 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 6;
 }
 
 @keyframes rollin {
-    from{
-        transform: translateY(-40vh) scale(2)  ;
-        color:#0B132B ;
-        text-shadow: 500px -500px 10px  #0B132B
-         
-    }
-    to{
-        transform: translateY(0) scale(1) ;
-        color: #5BC0BE;
-        text-shadow: 20px 20px 15px  #0B132B
-    }
+  from {
+    transform: translateY(-40vh) scale(2);
+    color: #0b132b;
+    text-shadow: 500px -500px 10px #0b132b;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    color: #5bc0be;
+    text-shadow: 20px 20px 15px #0b132b;
+  }
 }
 
 .Projectsheader {
-    display: flex;
-  bottom: 5vh;
+  display: flex;
   width: 100%;
   justify-content: left;
   font-family: Arimo;
-  font-size: 4vw;
+  font-size: 6vh;
   color: #5bc0be;
   text-shadow: 20px 20px 10px #0b132b;
   -webkit-text-stroke: 1px #0b132b;
   text-decoration: 10px;
-  padding-top: 1%;
+  padding-top: 1vh;
   padding-left: 1%;
   margin: 0;
   border: 0;
   transform: translateY(-40vh);
   animation: rollin 1s forwards;
-     
-    
 }
-
- 
 
 .ProjectsContent {
-    box-sizing: border-box;
-    width: 98%;
-    height: 80vh;
-    border: 1px solid #6FFFE9;
-    background-color: rgba(28, 37, 65, 0.7);
-    border-radius: 15px;
-    box-shadow: 20px 20px 15px #0B132B;
-    animation: contentrollin 1s forwards;
-    z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+  height: 93vh;
+  border: thin solid #0b132b;
+  background-color: rgba(28, 37, 65, 0.7);
+  box-shadow: 20px 20px 15px #0b132b;
+  animation: contentrollin 1s forwards;
+  z-index: 6;
 }
-    
- 
+
 .ProjectsContent::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.CarouselText{
-    box-sizing: border-box;
-    border: 2px solid #6FFFE9;
-    
-     
-    border-radius: 15px;
-    background-color: #3A506B;
-    opacity: .9;
-}
+.CarouselText {
+  box-sizing: border-box;
+  border: 2px solid #6fffe9;
 
- 
+  border-radius: 15px;
+  background-color: #3a506b;
+  opacity: 0.9;
+}
 
 .LiveIcon {
-    height: 6.2vh;
-     
-    margin: 0;
-    margin: .5vh;
-    fill:#5BC0BE;
-    
+  height: 6.2vh;
 
+  margin: 0;
+  margin: 0.5vh;
+  fill: #5bc0be;
 }
 
 .ProjectGitIcon {
-    height: 4.7vh;
-     
-    margin: 0;
-    margin: .5vh;
-    fill:#5BC0BE;
-     
+  height: 4.7vh;
 
+  margin: 0;
+  margin: 0.5vh;
+  fill: #5bc0be;
 }
- 
-  
-   
 
 @media (max-width: 1050px) {
-    .Projectsheader {
-        padding-top: 100px;
-        font-size: 10vw;
-        transform: translateY(0vh);
-        animation: none;
-        bottom: 0;
-    }
-    .Projectscontainer {
-        width: 100%;
-        margin-left: 0vw;
-         
-    }
-    .ProjectsContent {
-        width: 95%;
-        color: #5BC0BE;
-        height: 70vh;
-        animation:none;
-         
-         
-    }
-    .CarouselItem {
-        height: 60vh;
-    }
+  .Projectsheader {
+    padding-top: 100px;
+    font-size: 10vw;
+    transform: translateY(0vh);
+    animation: none;
+    bottom: 0;
+  }
+  .Projectscontainer {
+    width: 100%;
+    margin-left: 0vw;
+  }
+  .ProjectsContent {
+    width: 95%;
+    color: #5bc0be;
+    height: 70vh;
+    animation: none;
+  }
+  .CarouselItem {
+    height: 60vh;
+  }
 }

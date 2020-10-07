@@ -79,12 +79,12 @@
 
 @keyframes rollin {
   from {
-    transform: translateY(-40vh)  ;
+    transform: translateY(-40vh);
     color: #0b132b;
     text-shadow: 500px -500px 10px #0b132b;
   }
   to {
-    transform: translateY(0)  ;
+    transform: translateY(0);
     color: #5bc0be;
     text-shadow: 20px 20px 15px #0b132b;
   }
@@ -92,7 +92,6 @@
 
 .Contactheader {
   display: flex;
-  
   width: 100%;
   justify-content: left;
   font-family: Arimo;
