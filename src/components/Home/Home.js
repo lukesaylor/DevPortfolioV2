@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Homemain from "../../Assets/Homemain.png";
+import Homemain from "../../Assets/Homemain.webp";
 import Homemobile from "../../Assets/Homemobile.png";
 import Tilt from "react-tilt";
 import SecurityPlus from "../../Assets/securityplus.png";
