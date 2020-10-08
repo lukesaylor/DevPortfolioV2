@@ -1,0 +1,26 @@
+.CardContainer {
+ 
+  width: 45%;
+  margin: 2.5%;
+  border: thin solid#0b132b;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardImage {
+  width: 100%;
+  align-items: center;
+  flex:.5;
+  
+}
+
+.CardInner {
+    
+  background-color: #5bc0be;
+  bottom: 50%;
+   
+  
+   
+}

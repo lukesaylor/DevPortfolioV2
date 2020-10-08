@@ -18,7 +18,7 @@ const Home = () => (
       <img className="CertIcon" src={CloudPlus} alt="comptia cloud+"></img>
       <img className="CertIcon" src={CSCP} alt="comptia CSCP"></img>
     </div>
-    <Tilt options={{ max: 5, scale: 1.03 }}>
+    <Tilt options={{ max: 15, scale: 1.0 }}>
       <div className="Tilt-inner">
         <img className="Homemain" src={Homemain} alt="lukassaylor" />
       </div>
