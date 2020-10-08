@@ -25,6 +25,10 @@
   overflow: scroll;
 }
 
+.ContactContent::-webkit-scrollbar {
+  display: none;
+}
+
 .ContactContent > form {
   width: 100%;
   display: flex;
@@ -33,15 +37,26 @@
 }
 
 .ContactContent > form > p {
-  font-size: x-large;
+  font-size: medium;
+
   margin-bottom: 0;
+  width: 20vw;
+  margin-left: 5vw;
+  text-align: center;
+  align-self: flex-start;
+  background-color: #0b132b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: thin solid rgba(91, 192, 190, 0.5);
+  border-bottom: none;
 }
 
 .ContactContent > form > input {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 0px;
-  border: none;
+  border-top: thin solid rgba(91, 192, 190, 0.5);
+  border-bottom: thin solid rgba(91, 192, 190, 0.5);
   text-align: center;
   background-color: #0b132b;
   color: #5bc0be;
@@ -51,7 +66,8 @@
   width: 100%;
   height: 50vh;
   border-radius: 0px;
-  border: none;
+  border-top: thin solid rgba(91, 192, 190, 0.5);
+  border-bottom: thin solid rgba(91, 192, 190, 0.5);
   text-align: center;
   background-color: #0b132b;
   color: #5bc0be;
