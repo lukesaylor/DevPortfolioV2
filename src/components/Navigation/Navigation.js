@@ -12,8 +12,9 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <div className="Navigation">
-    <img src={lsicon} alt="Logo" className="LSicon" />
-
+    <a href="https://github.com/lukesaylor/DevPortfolioV2">
+      <img src={lsicon} alt="Logo" className="LSicon" />
+    </a>
     <navbuttons className="Navbuttons">
       <Link to="/">
         <Navbutton image={homeicon} alt="Home" title="Home" />

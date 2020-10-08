@@ -1,136 +1,112 @@
 @keyframes navbarslide {
-    from {
-        transform: translateY(100vh);
-    }
-    to{
-        transform: translateY(0vh);
-    }
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
 }
 
-
-
-
-.Navigation {   
-    font-family: Pacifico;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:rgba(28, 37, 65,.7);
-    width: 8vw;   
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    border-right: thin solid #5BC0BE;
-    box-shadow: 20px 20px 15px  #0B132B;
-    z-index: 5;
-    transform: translateY(100vh);
-    animation: navbarslide 1s forwards;
-    overflow: scroll;   
+.Navigation {
+  font-family: Pacifico;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(28, 37, 65, 0.7);
+  width: 8vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: thin solid rgba(90, 191, 189, 0.5);
+  box-shadow: 10px 10px 15px #0b132b;
+  z-index: 5;
+  transform: translateY(100vh);
+  animation: navbarslide 1s forwards;
+  overflow: scroll;
 }
 
 .Navigation::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @keyframes navslidein {
-    from {
-        transform: translateX(-500px);
-    }
-    to {
-        transform: translateX(0px);
-    }
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes spinlogo {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .LSicon {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 8vw;
-    padding: 1vw;
-    height: auto;
-    z-index: 1;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8vw;
+  padding: 1vw;
+  height: auto;
+  z-index: 1;
 }
 
 .LSicon:hover {
-    animation: spinlogo 3s forwards;
+  animation: spinlogo 3s forwards;
 }
 
 .Navbuttons {
-    padding-top: 22vh;
+  padding-top: 22vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  transform: translateX(-500px);
+  animation: navslidein 1s forwards;
+}
+
+@media (max-width: 1050px) {
+  .Navigation {
+    position: fixed;
+    top: 0;
+    background-color: #1c2541;
+    width: 100%;
+    height: 90px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: thin solid #5bc0be;
+    border-radius: 0px;
+    transform: none;
+    animation: none;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  .LSicon {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100px;
+  }
+
+  .Navbuttons {
+    padding-top: 0;
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    align-content: space-between;
-    transform: translateX(-500px);
-    animation: navslidein 1s forwards;
-     
-
+    justify-content: space-evenly;
+    transform: translateX(0px);
+    animation: none;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1050px)  {
-    .Navigation {
-        position: fixed;
-        top: 0;
-        background-color: #1C2541;
-        width: 100%;
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        border-bottom: thin solid #5BC0BE;
-        border-radius: 0px;
-        transform: none;
-        animation: none;
-        overflow: hidden;
-        z-index: 10;
-    }
-
-    .LSicon {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: auto;
-        height: 100px;
-    }
-    
-    .Navbuttons {
-        padding-top: 0;
-        padding-left: 0%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        transform: translateX(0px);
-        animation: none;
-        
-        
-    
-    }
-
-     
-
-   
-}
-
- 
