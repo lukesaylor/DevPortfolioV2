@@ -1,26 +1,93 @@
 .CardContainer {
- 
   width: 45%;
+  height: 60vh;
   margin: 2.5%;
-  border: thin solid#0b132b;
+  border: thin solid #5bc0be;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  
+  box-shadow: 20px 20px 15px #0b132b;
 }
 
 .CardImage {
+  display: flex;
+  height: 60%;
+}
+
+.CardImage > img {
   width: 100%;
-  align-items: center;
-  flex:.5;
-  
+  object-fit: cover;
 }
 
 .CardInner {
-    
-  background-color: #5bc0be;
-  bottom: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #0b132b;
+  z-index: 2;
+  width: fit-content;
+}
+
+.CardTitle {
+  height: 15%;
+  
+}
+
+.CardText {
+  text-align: center;
+  margin-bottom: 1%;
+  
+  height: 60%;
+  overflow: scroll;
    
   
+}
+
+ 
+
+.CardButtons {
+  display: flex;
+  width: 100%;
+  height: 25%;
+  margin-bottom: 1%;
+}
+
+.CardButtons > a {
+  height: 100%;
+  width: 100%;
    
+}
+
+.CardButtons > a > button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #0b132b;
+  background-color: #5bc0be;
+  border-top: thin solid #5bc0be;
+  border-bottom: thin solid #5bc0be;
+}
+
+.CardButtons > a > button:hover {
+  background-color: #0b132b;
+  color: #5bc0be;
+  text-decoration: none;
+}
+
+.CardButtons > a:link {
+  text-decoration: none;
+}
+
+@media (max-width:1050px) {
+  .CardContainer {
+    width: 96%;
+    border-radius: 0;
+    margin: 2%;
+    margin-bottom: 5%;
+  }
 }
