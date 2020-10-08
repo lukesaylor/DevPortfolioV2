@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "814d99c2f9b4ca58f64352863207b89e",
+    "revision": "f96cd822614540e2504dcdc22521f803",
     "url": "/DevPortfolioV2/index.html"
   },
   {
-    "revision": "ee6f3d5dfdf5d9cd572d",
+    "revision": "24d247b19aaef6c6063f",
     "url": "/DevPortfolioV2/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "37752cc64a0894454a65",
-    "url": "/DevPortfolioV2/static/css/main.7c75f556.chunk.css"
+    "revision": "b42f766a5339c9aa9099",
+    "url": "/DevPortfolioV2/static/css/main.8f0ada54.chunk.css"
   },
   {
-    "revision": "ee6f3d5dfdf5d9cd572d",
-    "url": "/DevPortfolioV2/static/js/2.4b6ba5cb.chunk.js"
+    "revision": "24d247b19aaef6c6063f",
+    "url": "/DevPortfolioV2/static/js/2.29473219.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/DevPortfolioV2/static/js/2.4b6ba5cb.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/DevPortfolioV2/static/js/2.29473219.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37752cc64a0894454a65",
-    "url": "/DevPortfolioV2/static/js/main.351b21c0.chunk.js"
+    "revision": "b42f766a5339c9aa9099",
+    "url": "/DevPortfolioV2/static/js/main.e90b39a1.chunk.js"
   },
   {
     "revision": "cffda4d198f1b8184ae6",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DevPortfolioV2/static/media/Headshot.8cb7dbcc.png"
   },
   {
-    "revision": "e09b563f78167f70b5359bec2a55b10d",
-    "url": "/DevPortfolioV2/static/media/Homemain.e09b563f.png"
+    "revision": "f9cf63bcb67de77af82e7a2285f95adb",
+    "url": "/DevPortfolioV2/static/media/Homemain.f9cf63bc.webp"
   },
   {
     "revision": "9fe53565a7ea5a25b11070ad0a57c71d",
@@ -88,16 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DevPortfolioV2/static/media/bootstrap.b1b360f5.svg"
   },
   {
-    "revision": "33944196febb94615f49512da8c544fd",
-    "url": "/DevPortfolioV2/static/media/chatapp.33944196.png"
+    "revision": "8f444f53c26197d85537878bdc73e751",
+    "url": "/DevPortfolioV2/static/media/chatapp.8f444f53.png"
   },
   {
     "revision": "68d69509eecc8eea558bd4248ada415b",
     "url": "/DevPortfolioV2/static/media/cloudplus.68d69509.png"
   },
   {
-    "revision": "86c25a434381acf3d237266bc1010430",
-    "url": "/DevPortfolioV2/static/media/covidapp.86c25a43.png"
+    "revision": "34de512b76b500e8547a6bfb13dfb9d8",
+    "url": "/DevPortfolioV2/static/media/codepenclone.34de512b.png"
+  },
+  {
+    "revision": "7085e7b9ad867e8e1d361e116007d6c1",
+    "url": "/DevPortfolioV2/static/media/covidapp.7085e7b9.png"
   },
   {
     "revision": "b675af6016eed403de51899be75efe59",
@@ -128,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DevPortfolioV2/static/media/npm.06851a19.svg"
   },
   {
+    "revision": "3c8b62179f3f27ad53c16d5fb024c763",
+    "url": "/DevPortfolioV2/static/media/quizapp.3c8b6217.png"
+  },
+  {
     "revision": "092e0882358cd09dbe9376b64d0f2a0e",
     "url": "/DevPortfolioV2/static/media/react.092e0882.svg"
   },
@@ -146,5 +154,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fb1422fc808a2687aa77a9f72a4cf6f",
     "url": "/DevPortfolioV2/static/media/visualstudiocode.4fb1422f.svg"
+  },
+  {
+    "revision": "42223387e0a79af1d007d49631500ba7",
+    "url": "/DevPortfolioV2/static/media/whatsapp.42223387.png"
   }
 ]);
