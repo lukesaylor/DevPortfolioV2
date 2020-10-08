@@ -8,7 +8,14 @@ const Projects = () => {
       <h1 className="Projectsheader">Projects</h1>
       <div className="ProjectsContent">
         <ProjectCard
-          title="React Quiz App"
+          title="Web Code Sandbox"
+          image="codepenclone"
+          text="In browser HTML/CSS/JS code sandbox with local storage for code memory"
+          codelink="https://github.com/lukesaylor/codepenclone"
+          livelink="https://lukesaylor.github.io/codepenclone/"
+        />
+        <ProjectCard
+          title="Typescript React Quiz App"
           image="quizapp"
           text="Quiz application built with Typescript React. Trivia questions provided by opentdb."
           codelink="https://github.com/lukesaylor/reactquiz"
