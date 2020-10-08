@@ -6,6 +6,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background-color: #0b132b;
 }
 
 .CardImage {
@@ -39,10 +40,14 @@
 .CardText {
   text-align: center;
   margin: 2%;
-
+  background-color: #0b132b;
   height: 60%;
   overflow: scroll;
 }
+
+.CardText::-webkit-scrollbar {
+    display: none;
+  }
 
 .CardButtons {
   display: flex;
