@@ -3,7 +3,8 @@
   justify-content: flex-end;
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: fit-content;
 
   z-index: 100;
 }
@@ -19,10 +20,10 @@
 @media (max-width: 1050px) {
   .SocialMediaContainer {
     padding-left: 0;
-    top: 91vh;
-    bottom: 0;
+    top: 95px;
+     
   }
   .SocialIcon {
-    height: 7vh;
+    height: 5vh;
   }
 }
