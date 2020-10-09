@@ -20,8 +20,8 @@ const Skills = () => (
     <div className="SkillsContent">
       <div className="SkillsContentRow">
         <div className="SkillsContentColumn">
-          <SkillsIconContainer>
-            <JavascriptLogo />
+          <SkillsIconContainer title="Javascript" skillModalText="Solid understanding of javascript">
+            <JavascriptLogo/>
           </SkillsIconContainer>
           <SkillsIconContainer>
             <HTML5Logo />

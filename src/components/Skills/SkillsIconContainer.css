@@ -6,7 +6,7 @@
      
     fill: #5BC0BE;
     box-sizing: border-box;
-    font-family: BungeeShade ;
+     
     font-size: 2.5vh;
     text-align: center;
     margin: auto;
@@ -31,9 +31,16 @@
     stroke: white;
     stroke-width: 1%;
      
+     
 }
 
 .SkillIcon:hover {
     animation: SkillIconSpin 2s forwards;
 }
  
+.popup {
+    display: block;
+    z-index: 100;
+    color: white;
+    position: absolute;
+}
