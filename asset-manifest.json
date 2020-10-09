@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DevPortfolioV2/static/css/main.8f109805.chunk.css",
-    "main.js": "/DevPortfolioV2/static/js/main.1d1bc520.chunk.js",
-    "main.js.map": "/DevPortfolioV2/static/js/main.1d1bc520.chunk.js.map",
+    "main.css": "/DevPortfolioV2/static/css/main.ed826fbe.chunk.css",
+    "main.js": "/DevPortfolioV2/static/js/main.950897b2.chunk.js",
+    "main.js.map": "/DevPortfolioV2/static/js/main.950897b2.chunk.js.map",
     "runtime-main.js": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js",
     "runtime-main.js.map": "/DevPortfolioV2/static/js/runtime-main.9ddf1694.js.map",
     "static/js/2.4f5f4760.chunk.js": "/DevPortfolioV2/static/js/2.4f5f4760.chunk.js",
     "static/js/2.4f5f4760.chunk.js.map": "/DevPortfolioV2/static/js/2.4f5f4760.chunk.js.map",
     "index.html": "/DevPortfolioV2/index.html",
-    "precache-manifest.8518a28765d36a8d14a970e9f8ed2728.js": "/DevPortfolioV2/precache-manifest.8518a28765d36a8d14a970e9f8ed2728.js",
+    "precache-manifest.14c1068aeabe6e07e4ed1343db63ab12.js": "/DevPortfolioV2/precache-manifest.14c1068aeabe6e07e4ed1343db63ab12.js",
     "service-worker.js": "/DevPortfolioV2/service-worker.js",
-    "static/css/main.8f109805.chunk.css.map": "/DevPortfolioV2/static/css/main.8f109805.chunk.css.map",
+    "static/css/main.ed826fbe.chunk.css.map": "/DevPortfolioV2/static/css/main.ed826fbe.chunk.css.map",
     "static/js/2.4f5f4760.chunk.js.LICENSE.txt": "/DevPortfolioV2/static/js/2.4f5f4760.chunk.js.LICENSE.txt",
     "static/media/Arimo-Regular.ttf": "/DevPortfolioV2/static/media/Arimo-Regular.9fe23bf2.ttf",
     "static/media/Bungee-Regular.ttf": "/DevPortfolioV2/static/media/Bungee-Regular.259d4afa.ttf",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.9ddf1694.js",
     "static/js/2.4f5f4760.chunk.js",
-    "static/css/main.8f109805.chunk.css",
-    "static/js/main.1d1bc520.chunk.js"
+    "static/css/main.ed826fbe.chunk.css",
+    "static/js/main.950897b2.chunk.js"
   ]
 }
