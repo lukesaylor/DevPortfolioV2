@@ -19,9 +19,13 @@ const SkillsIconContainer = (props) => {
       >
         {props.children}
       </div>
-       
+
       {isOpen ? (
-        <div className="popup">
+        <div
+          onMouseEnter={() => setIsOpen(true)}
+          onMouseLeave={() => setIsOpen(false)}
+          className="popup"
+        >
           <h3>{props.title}</h3>
           <p>{props.skillModalText}</p>
         </div>
