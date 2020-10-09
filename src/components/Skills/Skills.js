@@ -20,7 +20,7 @@ const Skills = () => (
     <div className="SkillsContent">
       <div className="SkillsContentRow">
         <div className="SkillsContentColumn">
-          <SkillsIconContainer title="Javascript" skillModalText="Solid understanding of javascript">
+          <SkillsIconContainer title="Javascript" skillModalText=" High understanding and implementation ability of javascript concepts such as scope, type, inheritance, built-in javascript object and array methods, functions, and loops. Functional understanding of ES6 and above features as well as more advanced concepts such as async functions, hoisting, prototypes, memoization, async & await, promises, and the implementation of Domain Driven Design">
             <JavascriptLogo/>
           </SkillsIconContainer>
           <SkillsIconContainer>

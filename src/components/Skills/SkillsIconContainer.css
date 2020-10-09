@@ -16,11 +16,9 @@
   0% {
     transform: scale(1);
   }
-  50% {
-    transform: scale(1.1);
-  }
+
   100% {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 
@@ -33,11 +31,31 @@
   animation: SkillIconSpin 2s forwards;
 }
 
+@keyframes modalgrow {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes modaltitleslide {
+  0% {
+    transform: translateX(40vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
 .popup {
   position: absolute;
   top: 30vh;
   left: 60vh;
-border-radius: 10px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   z-index: 100;
@@ -46,4 +64,21 @@ border-radius: 10px;
   height: fit-content;
   color: white;
   position: absolute;
+  justify-content: flex-start;
+  padding: 1%;
+  animation: modalgrow 0.2s forwards;
+  overflow: hidden;
+}
+
+.popup > h3 {
+  align-self: flex-start;
+  margin: 0;
+  animation: modaltitleslide 0.5s forwards;
+}
+
+.popup > p {
+  margin-top: 0;
+  width: 100%;
+  border-top: thin solid #5bc0be;
+  text-align: left;
 }
