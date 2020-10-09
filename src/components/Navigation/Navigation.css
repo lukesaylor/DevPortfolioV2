@@ -19,7 +19,7 @@
   flex-direction: column;
   border-right: thin solid rgba(90, 191, 189, 0.5);
   box-shadow: 10px 10px 15px #0b132b;
-  z-index: 5;
+  z-index: 7;
   transform: translateY(100vh);
   animation: navbarslide 1s forwards;
   overflow: scroll;

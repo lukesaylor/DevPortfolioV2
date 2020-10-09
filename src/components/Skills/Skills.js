@@ -20,10 +20,16 @@ const Skills = () => (
     <div className="SkillsContent">
       <div className="SkillsContentRow">
         <div className="SkillsContentColumn">
-          <SkillsIconContainer title="Javascript" skillModalText=" High understanding and implementation ability of javascript concepts such as scope, type, inheritance, built-in javascript object and array methods, functions, and loops. Functional understanding of ES6 and above features as well as more advanced concepts such as async functions, hoisting, prototypes, memoization, async & await, promises, and the implementation of Domain Driven Design">
-            <JavascriptLogo/>
+          <SkillsIconContainer
+            title="Javascript"
+            skillModalText=" High understanding and implementation ability of javascript concepts such as scope, type, inheritance, built-in javascript object and array methods, functions, and loops. Functional understanding of ES6 and above features as well as more advanced concepts such as async functions, hoisting, prototypes, memoization, async & await, promises, and the implementation of Domain Driven Design"
+          >
+            <JavascriptLogo />
           </SkillsIconContainer>
-          <SkillsIconContainer>
+          <SkillsIconContainer
+            title="HTML5"
+            skillModalText="Solid understanding of all common HTML/JSX elements such as forms, tables, lists, etc."
+          >
             <HTML5Logo />
           </SkillsIconContainer>
           <SkillsIconContainer>
@@ -46,18 +52,12 @@ const Skills = () => (
             <VisualStudioLogo />
           </SkillsIconContainer>
           <SkillsIconContainer>
-            <ReactRouterLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
             <NPMLogo />
           </SkillsIconContainer>
         </div>
         <div className="SkillsContentColumn">
           <SkillsIconContainer>
             <SassLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
-            <PhotoshopLogo />
           </SkillsIconContainer>
           <SkillsIconContainer>
             <NodeLogo />

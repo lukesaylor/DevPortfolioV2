@@ -53,8 +53,8 @@
 
 .popup {
   position: absolute;
-  top: 30vh;
-  left: 60vw;
+  top: 27vh;
+  left: 32vw;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
