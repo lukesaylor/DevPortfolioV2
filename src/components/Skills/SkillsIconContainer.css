@@ -54,7 +54,7 @@
 .popup {
   position: absolute;
   top: 30vh;
-  left: 60vh;
+  left: 60vw;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -81,4 +81,14 @@
   width: 100%;
   border-top: thin solid #5bc0be;
   text-align: left;
+}
+
+@media (max-width: 1050px) {
+    .popup {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: none;
+        bottom: 0;
+    }
 }

@@ -13,8 +13,8 @@ const SkillsIconContainer = (props) => {
       <div
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
-        onTouch={() => setIsOpen(true)}
-        onTouchEnd={() => setIsOpen(false)}
+        onClick={() => setIsOpen(!isOpen)}
+         
         className="SkillIcon"
       >
         {props.children}
