@@ -32,7 +32,7 @@ const Skills = () => (
           >
             <HTML5Logo />
           </SkillsIconContainer>
-          <SkillsIconContainer>
+          <SkillsIconContainer title >
             <CSS3Logo />
           </SkillsIconContainer>
         </div>

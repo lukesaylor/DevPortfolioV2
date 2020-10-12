@@ -60,6 +60,7 @@
   text-align: center;
   background-color: #0b132b;
   color: #5bc0be;
+  font-size: large;
 }
 
 .ContactContent > form > textarea {
@@ -71,6 +72,8 @@
   text-align: center;
   background-color: #0b132b;
   color: #5bc0be;
+  font: inherit;
+  font-size: large;
 }
 
 .ContactContent > form > button {
