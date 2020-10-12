@@ -58,7 +58,7 @@
   z-index: 100;
   width: 25vw;
   background-color: rgba(11, 19, 43, 0.7);
-  height: fit-content;
+  height: 30vh;
   color: white;
   
   justify-content: flex-start;

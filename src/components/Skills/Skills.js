@@ -40,7 +40,7 @@ const Skills = () => (
           </SkillsIconContainer>
         </div>
         <div className="SkillsContentColumn">
-          <SkillsIconContainer>
+          <SkillsIconContainer title="React" skillModalText="Advanced knowledge of the React library. full understanding of React components, props and state management with both class-based components and function components using React Hooks. experience creating custom hooks utilizing higher-order components">
             <ReactLogo />
           </SkillsIconContainer>
           <SkillsIconContainer>
