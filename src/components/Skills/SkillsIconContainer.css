@@ -27,9 +27,7 @@
   stroke-width: 1%;
 }
 
-.SkillIcon:hover {
-  animation: SkillIconSpin 2s forwards;
-}
+ 
 
 @keyframes modalgrow {
   0% {
@@ -52,9 +50,8 @@
 }
 
 .popup {
-  position: absolute;
-  top: 27vh;
-  left: 32vw;
+  position: fixed;
+   
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -63,7 +60,7 @@
   background-color: rgba(11, 19, 43, 0.7);
   height: fit-content;
   color: white;
-  position: absolute;
+  
   justify-content: flex-start;
   padding: 1%;
   animation: modalgrow 0.2s forwards;
@@ -85,8 +82,8 @@
 
 @media (max-width: 1050px) {
     .popup {
-        position: absolute;
-        width: 100%;
+        position: fixed;
+        width: 50%;
         left: 0;
         top: none;
         bottom: 0;

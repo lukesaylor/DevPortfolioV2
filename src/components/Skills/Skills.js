@@ -32,7 +32,10 @@ const Skills = () => (
           >
             <HTML5Logo />
           </SkillsIconContainer>
-          <SkillsIconContainer title >
+          <SkillsIconContainer
+            title="CSS3"
+            skillModalText="Firm grasp of CSS syntax including CSS Grid and Flex, experience with numerous CSS libraries such as Material UI and Bootstrap. Experience implementing new CSS technologies within React such as Styled Components and CSS Modules "
+          >
             <CSS3Logo />
           </SkillsIconContainer>
         </div>

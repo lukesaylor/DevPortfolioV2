@@ -1,15 +1,45 @@
 import React, { useEffect, useState} from "react";
 import "./SkillsIconContainer.css";
 
-const SkillsIconContainer = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+
+const useMouse = () => {
+  const [mousePosition, setMousePosition] = useState({
+    x: null,
+    y: null
+  });
 
   useEffect(() => {
-    console.log(isOpen);
-  }, [isOpen]);
+    const handle = (e) => {
+       
+      setMousePosition({
+        x:  100*(e.pageX/window.innerWidth),
+        y: 100*(e.pageY/window.innerHeight)
+      })
+    }
+
+    
+
+    document.addEventListener("mousemove", handle)
+    return () => document.removeEventListener("mousemove", handle)
+  })
+   return mousePosition;
+}
+
+
+
+
+
+const SkillsIconContainer = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const {x,y} = useMouse()
+  
+
+   
+   
 
   return (
     <div className="SkillsIconContainer">
+     
       <div
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
@@ -22,8 +52,8 @@ const SkillsIconContainer = (props) => {
 
       {isOpen ? (
         <div
-          onMouseEnter={() => setIsOpen(true)}
-          onMouseLeave={() => setIsOpen(false)}
+          style={{top:`${(y>50)?(y-25):(y+1)}vh`, left:`${(x>50)?(x-27):(x+1)}vw`}}
+           
           className="popup"
         >
           <h3>{props.title}</h3>
@@ -34,3 +64,6 @@ const SkillsIconContainer = (props) => {
   );
 };
 export default SkillsIconContainer;
+
+
+{{}}
