@@ -2,17 +2,17 @@ import React from "react";
 import "./Skills.css";
 import SkillsIconContainer from "./SkillsIconContainer";
 import { ReactComponent as Githublogo } from "../../Assets/github.svg";
-import { ReactComponent as PhotoshopLogo } from "../../Assets/SkillsIcons/adobephotoshop.svg";
 import { ReactComponent as BootstrapLogo } from "../../Assets/SkillsIcons/bootstrap.svg";
 import { ReactComponent as CSS3Logo } from "../../Assets/SkillsIcons/css3.svg";
 import { ReactComponent as HTML5Logo } from "../../Assets/SkillsIcons/html5.svg";
 import { ReactComponent as JavascriptLogo } from "../../Assets/SkillsIcons/javascript.svg";
-import { ReactComponent as NPMLogo } from "../../Assets/SkillsIcons/npm.svg";
 import { ReactComponent as ReactLogo } from "../../Assets/SkillsIcons/react.svg";
-import { ReactComponent as ReactRouterLogo } from "../../Assets/SkillsIcons/reactrouter.svg";
-import { ReactComponent as SassLogo } from "../../Assets/SkillsIcons/sass.svg";
 import { ReactComponent as VisualStudioLogo } from "../../Assets/SkillsIcons/visualstudiocode.svg";
 import { ReactComponent as NodeLogo } from "../../Assets/SkillsIcons/node-dot-js.svg";
+import { ReactComponent as JestLogo } from "../../Assets/SkillsIcons/jest.svg";
+import { ReactComponent as TypescriptLogo } from "../../Assets/SkillsIcons/typescript.svg";
+import { ReactComponent as AzureLogo } from "../../Assets/SkillsIcons/azure.svg";
+import { ReactComponent as Dynamics365Logo } from "../../Assets/SkillsIcons/dynamics365.svg";
 
 const Skills = () => (
   <div className="Skillscontainer">
@@ -32,38 +32,47 @@ const Skills = () => (
           >
             <HTML5Logo />
           </SkillsIconContainer>
+          <SkillsIconContainer title="Jest">
+            <JestLogo />
+          </SkillsIconContainer>
+        </div>
+        <div className="SkillsContentColumn">
+          <SkillsIconContainer
+            title="React"
+            skillModalText="Advanced knowledge of the React library. full understanding of React components, props and state management with both class-based components and function components using React Hooks. experience creating custom hooks utilizing higher-order components"
+          >
+            <ReactLogo />
+          </SkillsIconContainer>
+          <SkillsIconContainer title="Bootstrap">
+            <BootstrapLogo />
+          </SkillsIconContainer>
+          <SkillsIconContainer title="Typescript">
+            <TypescriptLogo />
+          </SkillsIconContainer>
+        </div>
+        <div className="SkillsContentColumn">
+          <SkillsIconContainer title="Visual Studio">
+            <VisualStudioLogo />
+          </SkillsIconContainer>
+          <SkillsIconContainer title="GitHub">
+            <Githublogo />
+          </SkillsIconContainer>
+          <SkillsIconContainer title="Azure">
+            <AzureLogo />
+          </SkillsIconContainer>
+        </div>
+        <div className="SkillsContentColumn">
+          <SkillsIconContainer title="NodeJS">
+            <NodeLogo />
+          </SkillsIconContainer>
           <SkillsIconContainer
             title="CSS3"
             skillModalText="Firm grasp of CSS syntax including CSS Grid and Flex, experience with numerous CSS libraries such as Material UI and Bootstrap. Experience implementing new CSS technologies within React such as Styled Components and CSS Modules "
           >
             <CSS3Logo />
           </SkillsIconContainer>
-        </div>
-        <div className="SkillsContentColumn">
-          <SkillsIconContainer title="React" skillModalText="Advanced knowledge of the React library. full understanding of React components, props and state management with both class-based components and function components using React Hooks. experience creating custom hooks utilizing higher-order components">
-            <ReactLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
-            <BootstrapLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
-            <Githublogo />
-          </SkillsIconContainer>
-        </div>
-        <div className="SkillsContentColumn">
-          <SkillsIconContainer>
-            <VisualStudioLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
-            <NPMLogo />
-          </SkillsIconContainer>
-        </div>
-        <div className="SkillsContentColumn">
-          <SkillsIconContainer>
-            <SassLogo />
-          </SkillsIconContainer>
-          <SkillsIconContainer>
-            <NodeLogo />
+          <SkillsIconContainer title="Dynamics 365">
+            <Dynamics365Logo/>
           </SkillsIconContainer>
         </div>
       </div>

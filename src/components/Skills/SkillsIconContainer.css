@@ -22,10 +22,7 @@
   }
 }
 
-.SkillIcon {
-  stroke: white;
-  stroke-width: 1%;
-}
+ 
 
 @keyframes modalgrow {
   0% {
