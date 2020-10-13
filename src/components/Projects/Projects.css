@@ -7,8 +7,6 @@
   z-index: 6;
 }
 
-
-
 @keyframes rollin {
   from {
     transform: translateY(-40vh) scale(2);
@@ -54,14 +52,11 @@
   grid-template-rows: auto;
   column-gap: 2%;
   margin-bottom: 5%;
-  
 }
 
 .ProjectsContent::-webkit-scrollbar {
   display: none;
 }
-
- 
 
 @media (max-width: 1050px) {
   .Projectsheader {
@@ -80,5 +75,4 @@
     width: 100%;
     grid-template-columns: 98%;
   }
-   
 }

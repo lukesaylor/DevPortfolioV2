@@ -48,6 +48,7 @@ const SkillsIconContainer = (props) => {
           <p>{props.skillModalText}</p>
         </div>
       ) : null}
+      {isOpen ? <div className="BackdropLogo">{props.children}</div> : null}
     </div>
   );
 };

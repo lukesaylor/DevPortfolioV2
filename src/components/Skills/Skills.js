@@ -22,7 +22,7 @@ const Skills = () => (
         <div className="SkillsContentColumn">
           <SkillsIconContainer
             title="Javascript"
-            skillModalText=" High understanding and implementation ability of javascript concepts such as scope, type, inheritance, built-in javascript object and array methods, functions, and loops. Functional understanding of ES6 and above features as well as more advanced concepts such as async functions, hoisting, prototypes, memoization, async & await, promises, and the implementation of Domain Driven Design"
+            skillModalText=" High understanding and implementation ability of javascript concepts such as scope, type, inheritance, built-in javascript object and array methods, functions, and loops. Functional understanding of ES6 and above features as well as more advanced concepts such as async functions, hoisting, prototypes, memoization, async & await, and promises."
           >
             <JavascriptLogo />
           </SkillsIconContainer>
@@ -32,37 +32,58 @@ const Skills = () => (
           >
             <HTML5Logo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="Jest">
+          <SkillsIconContainer
+            title="Jest"
+            skillModalText="Experience writing tests and mocking in Jest."
+          >
             <JestLogo />
           </SkillsIconContainer>
         </div>
         <div className="SkillsContentColumn">
           <SkillsIconContainer
             title="React"
-            skillModalText="Advanced knowledge of the React library. full understanding of React components, props and state management with both class-based components and function components using React Hooks. experience creating custom hooks utilizing higher-order components"
+            skillModalText="Advanced knowledge of the React library. full understanding of React components, props and state management with both class-based components and function components using React Hooks. experience creating custom hooks utilizing higher-order components."
           >
             <ReactLogo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="Bootstrap">
+          <SkillsIconContainer
+            title="Bootstrap"
+            skillModalText="Experience using Bootstrap components in vanilla JS and well as implementation in React. Applicable knowledge in creating Bootstrap themes as well as modifying Bootstrap classes."
+          >
             <BootstrapLogo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="Typescript">
+          <SkillsIconContainer
+            title="Typescript"
+            skillModalText="Versed in Typescript React development as well as Jest Testing in Typescript. Experience implementing enums and defining types."
+          >
             <TypescriptLogo />
           </SkillsIconContainer>
         </div>
         <div className="SkillsContentColumn">
-          <SkillsIconContainer title="Visual Studio">
+          <SkillsIconContainer
+            title="Visual Studio"
+            skillModalText="Competency developing and using version control in Visual Studio. Aptitude in utizling VS extensions to streamline development and increase effeciency."
+          >
             <VisualStudioLogo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="GitHub">
+          <SkillsIconContainer
+            title="GitHub"
+            skillModalText="Knowledge of implementing Git version control and managing branches, merging code, and completing pull requests."
+          >
             <Githublogo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="Azure">
+          <SkillsIconContainer
+            title="Azure"
+            skillModalText="Experience hosting app in the Azure environment, Azure Pipelines, as well as provisioning VMs writing Azure Functions serverless applications."
+          >
             <AzureLogo />
           </SkillsIconContainer>
         </div>
         <div className="SkillsContentColumn">
-          <SkillsIconContainer title="NodeJS">
+          <SkillsIconContainer
+            title="NodeJS"
+            skillModalText="Experience creating Node servers and ultilizing NPM packages"
+          >
             <NodeLogo />
           </SkillsIconContainer>
           <SkillsIconContainer
@@ -71,8 +92,11 @@ const Skills = () => (
           >
             <CSS3Logo />
           </SkillsIconContainer>
-          <SkillsIconContainer title="Dynamics 365">
-            <Dynamics365Logo/>
+          <SkillsIconContainer
+            title="Dynamics 365"
+            skillModalText="Experience in PowerApps building forms and utilizing web resources."
+          >
+            <Dynamics365Logo />
           </SkillsIconContainer>
         </div>
       </div>

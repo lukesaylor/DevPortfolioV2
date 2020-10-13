@@ -12,6 +12,20 @@
   margin: auto;
 }
 
+.BackdropLogo {
+  position: absolute;
+  width: 50vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin-left: 30vw;
+  margin-right: 20vw;
+  margin-top: 16vh;
+  opacity: 0.1;
+  animation: modalgrow 1s forwards;
+
+}
+
 @keyframes SkillIconSpin {
   0% {
     transform: scale(1);
@@ -21,8 +35,6 @@
     transform: scale(1.1);
   }
 }
-
- 
 
 @keyframes modalgrow {
   0% {
@@ -78,6 +90,10 @@
 
 @media (max-width: 1050px) {
   .popup {
+    display: none;
+  }
+
+  .BackdropLogo {
     display: none;
   }
 }
