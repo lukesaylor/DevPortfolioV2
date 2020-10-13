@@ -1,7 +1,9 @@
 .HomeContainer {
-     
+    display: flex;
+    flex-direction: column; 
     width: 91%;
     padding-left: 9vw;
+    align-items: center;
 }
 
 @keyframes homefadeslide {
@@ -17,7 +19,7 @@
 }
 
 .Homemain {
-   padding-left: 8vw; 
+    
    height: 100vh;
    opacity: 0;
    z-index: -1;

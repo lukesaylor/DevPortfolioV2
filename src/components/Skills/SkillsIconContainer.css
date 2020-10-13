@@ -27,8 +27,6 @@
   stroke-width: 1%;
 }
 
- 
-
 @keyframes modalgrow {
   0% {
     transform: scaleY(0);
@@ -51,16 +49,17 @@
 
 .popup {
   position: fixed;
-   
+
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   z-index: 100;
   width: 25vw;
   background-color: rgba(11, 19, 43, 0.7);
-  height: 30vh;
+  height: fit-content;
+  min-height: 30vh;
   color: white;
-  
+
   justify-content: flex-start;
   padding: 1%;
   animation: modalgrow 0.2s forwards;
@@ -81,11 +80,7 @@
 }
 
 @media (max-width: 1050px) {
-    .popup {
-        position: fixed;
-        width: 50%;
-        left: 0;
-        top: none;
-        bottom: 0;
-    }
+  .popup {
+    display: none;
+  }
 }

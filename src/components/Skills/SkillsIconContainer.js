@@ -40,7 +40,7 @@ const SkillsIconContainer = (props) => {
         <div
           style={{
             top: `${y > 50 ? y - 33 : y + 1}vh`,
-            left: `${x > 50 ? x - 27 : x + 1}vw`,
+            left: `${x > 50 ? x - 28 : x + 1}vw`,
           }}
           className="popup"
         >
