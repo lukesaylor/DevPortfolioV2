@@ -35,7 +35,7 @@
   border: 0;
   transform: translateY(-40vh);
   animation: rollin 1s forwards;
-  z-index: 6;
+  z-index: 8;
 }
 .SkillsContent {
   box-sizing: border-box;
