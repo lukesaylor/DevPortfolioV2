@@ -7,7 +7,7 @@ function ProjectCard(props) {
       <div className="CardImage">
       <img
         
-        src={require(`../../Assets/ProjectImages/${props.image}.png`)}
+        src={require(`../../Assets/ProjectImages/${props.image}.webp`)}
         alt="project"
       />
       </div>
