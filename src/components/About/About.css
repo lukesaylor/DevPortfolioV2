@@ -55,12 +55,14 @@
   width: 100%;
   height: 93vh;
   overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: thin solid #0b132b;
   background-color: rgba(28, 37, 65, 0.7);
   box-shadow: 20px 20px 15px #0b132b;
   animation: contentrollin 1s forwards;
   z-index: 6;
-  justify-content: left;
 }
 
 .AboutContent::-webkit-scrollbar {
@@ -68,32 +70,71 @@
 }
 
 .Aboutimage {
-  position: relative;
   height: 20vh;
-  width: 20vh;
-  overflow: hidden;
+  margin-top: 1%;
   border-radius: 50%;
-  border: 3px solid #6fffe9;
-  background-color: #3a506b;
-  margin-top: 2vh;
-  margin-left: 2vh;
-  margin-right: 2vh;
-  shape-outside: circle();
-  float: left;
+  -webkit-box-shadow: 0px 0px 45px 15px rgba(91, 192, 190, 0.77);
+  -moz-box-shadow: 0px 0px 45px 15px rgba(91, 192, 190, 0.77);
+  box-shadow: 0px 0px 45px 15px rgba(91, 192, 190, 0.77);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 19, 43, 0.3),
+    rgba(91, 192, 190, 0.3)
+  );
+  background-size: 200% 200%;
+  border: medium solid rgba(91, 192, 190, 0.75);
+
+  -webkit-animation: aboutimagegradient 7s ease infinite;
+  -moz-animation: aboutimagegradient 7s ease infinite;
+  animation: aboutimagegradient 7s ease infinite;
+}
+
+@-webkit-keyframes aboutimagegradient {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@-moz-keyframes aboutimagegradient {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@keyframes aboutimagegradient {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
 }
 
 .AboutText {
-  padding-top: 5%;
+  padding-top: 1%;
   padding-bottom: 5%;
   position: relative;
-  width: 90%;
+  width: 75%;
   margin: auto;
   font-family: Arimo;
-  text-align: left;
-  font-size: 3vh;
+  text-align: justify;
+  text-justify: auto;
+  font-size: 2.5vh;
   text-indent: 100px;
 }
-
 
 @media (max-width: 1050px) {
   .Aboutheader {
@@ -110,11 +151,10 @@
   .AboutContent {
     height: 75vh;
     width: 100%;
-    
   }
 
   .AboutText {
-    text-align: left;
     font-size: 2.5vh;
+    width: 90%;
   }
 }

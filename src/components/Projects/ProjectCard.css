@@ -1,6 +1,6 @@
 .CardContainer {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   margin: 2%;
   overflow: hidden;
   display: flex;
@@ -41,7 +41,7 @@
   margin: 2%;
   background-color: #0b132b;
   height: 60%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .CardText::-webkit-scrollbar {
@@ -84,5 +84,8 @@
   .CardContainer {
     width: 98%;
     margin: 2%;
+    margin-bottom: 5%;
+    height: fit-content;
   }
+
 }

@@ -17,10 +17,11 @@
   box-shadow: 20px 20px 15px #0b132b;
   animation: contentrollin 1s forwards;
   z-index: 6;
-  justify-content: left;
+   
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: 20px;
   overflow: scroll;
 }
@@ -30,10 +31,11 @@
 }
 
 .ContactContent > form {
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .ContactContent > form > p {
@@ -150,12 +152,19 @@
     width: 100%;
   }
 
+  .ContactContent > form {
+    width: 100%;
+    
+  }
+
   .ContactContent > form > input {
     width: 100%;
     margin-bottom: 5px;
+    font-size: x-large;
   }
 
   .ContactContent > form > textarea {
+    margin-top: 2vh;
     width: 100%;
     height: 20vh;
   }
