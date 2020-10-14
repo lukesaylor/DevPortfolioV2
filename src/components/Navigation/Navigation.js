@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 import lsicon from "../../Assets/LSicon.png";
-import homeicon from "../../Assets/home.png";
+
 import skillsicon from "../../Assets/skills.png";
 import aboutmeicon from "../../Assets/aboutme.png";
 import projectsicon from "../../Assets/projects.png";
@@ -12,13 +12,10 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <div className="Navigation">
-    <a href="https://github.com/lukesaylor/DevPortfolioV2">
+    <Link to="/">
       <img src={lsicon} alt="Logo" className="LSicon" />
-    </a>
+    </Link>
     <navbuttons className="Navbuttons">
-      <Link to="/">
-        <Navbutton image={homeicon} alt="Home" title="Home" />
-      </Link>
       <Link to="/About">
         <Navbutton image={aboutmeicon} alt="About" title="About" />
       </Link>
