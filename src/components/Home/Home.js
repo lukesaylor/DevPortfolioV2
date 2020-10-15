@@ -7,8 +7,10 @@ import SecurityPlus from "../../Assets/securityplus.png";
 import CloudPlus from "../../Assets/cloudplus.png";
 import CSCP from "../../Assets/CSCP.png";
 
-const Home = () => (
-  <div className="HomeContainer">
+const Home = () => {
+
+  const Homepage = () => (
+    <>
     <div className="CertLogos">
       <img
         className="CertIcon"
@@ -25,7 +27,18 @@ const Home = () => (
     </Tilt>
 
     <img className="Homemobile" src={Homemobile} alt="lukassaylor" />
+    </>
+  )
+
+
+
+  return(
+  <div className="HomeContainer">
+  {!Homepage ? (<Homepage/>):(
+    <div className="loader">Loading</div>
+  )}
+     
   </div>
-);
+  )};
 
 export default Home;
