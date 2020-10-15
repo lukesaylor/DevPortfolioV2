@@ -34,7 +34,7 @@ const Home = () => {
 
   return(
   <div className="HomeContainer">
-  {!Homepage ? (<Homepage/>):(
+  {Homepage ? (<Homepage/>):(
     <div className="loader">Loading</div>
   )}
      
